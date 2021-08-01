@@ -24,7 +24,7 @@ Acer blushed slightly. They didn&#39;t like anyone commenting on their appearanc
 [[Look around for a bow-&gt;Acer bow 1]]</tw-passagedata><tw-passagedata pid="4" name="Acer bow 1" tags="" position="909,194" size="100,100">Acer doesn&#39;t see a bow around here. What does that random voice mean?
 Hrmm. Maybe it is in another room?
 Let&#39;s try and leave.(set: $acer_bow_temp to false)
-[[Try and leave-&gt;Acer bow 2]]</tw-passagedata><tw-passagedata pid="5" name="Acer bow 2" tags="" position="1109,196" size="100,100">The door is really weird. It&#39;s covered in moss and Acer cannot figure out any way that it would open.
+[[Try and leave-&gt;Acer bow 2]]</tw-passagedata><tw-passagedata pid="5" name="Acer bow 2" tags="" position="1109,196" size="100,100">The door is really weird. The door is covered in moss and Acer cannot figure out any way that it would open.
 At least, they think the mossy object is the door. It is door shaped but it doesn&#39;t look like any door Acer has seen before.
 [[Look around for a key-&gt;Acer bow key]]
 (if:$acer_bow_temp is true)[[[Look around for any equipment-&gt;Acer bow Equipment 1]]]</tw-passagedata><tw-passagedata pid="6" name="Acer bow key" tags="" position="1118,26" size="100,100">Acer looks around the room for a key.
@@ -73,7 +73,7 @@ The walls had (text-colour:purple)[purple] stars on them and other magical icono
 There is a passageway to other rooms in his house.
 He couldn&#39;t see a staff anywhere but maybe he needed to look harder?
 [[Look around for the staff-&gt;Remy staff 2]]
-[[Try to open the door-&gt;Remy staff door]]</tw-passagedata><tw-passagedata pid="19" name="An Adventure begins" tags="" position="434.3333333333333,0" size="100,100">Welcome to an Adventure!
+[[Try to open the door-&gt;Remy staff door]]</tw-passagedata><tw-passagedata pid="19" name="An Adventure begins" tags="" position="434,0" size="100,100">Welcome to an Adventure!
 In this adventure, you will be able to control a few characters as they discover the mystery which is pulling the strings.
 You will find that your decisions will change the story.
 For example, a character might pick up a (text-colour:red)[red] item off the ground because you said that they should. They might instead take the (text-colour:cyan)[cyan] item.
@@ -118,7 +118,7 @@ The man doesn&#39;t react to the Narrator which is a bit odd.
 &lt;silence&gt;
 &quot;Fine, cool guy Cole. Let&#39;s look around your room.&quot;
 [[Look around Cole&#39;s room-&gt;Cole Introduction 2]]</tw-passagedata><tw-passagedata pid="28" name="Cole Introduction 2" tags="" position="691,761" size="100,100">&quot;Cole wears his coolguy cloak.&quot;
-&quot;It is supposedly used for stealth but it is quite ineffective due to it&#39;s colour (it&#39;s (text-colour:blue)[blue]).&quot;
+&quot;It is supposedly used for stealth but it is quite ineffective due to its colour (it&#39;s (text-colour:blue)[blue]).&quot;
 Cole murmurs at a barely audible level and whips his cloak around. It looks pretty badass.
 &quot;Thank you Cole, at least you are helping a little bit.&quot;
 Cole doesn&#39;t acknowledge the comment.
@@ -147,22 +147,22 @@ He spys a chest.
 Intriguing.
 [[Approach the chest-&gt;Cole daggers chest 1]]</tw-passagedata><tw-passagedata pid="35" name="Cole daggers chest 2" tags="" position="1551,743" size="100,100">Cole picks the lock of the chest.
 He carefully pushes the lid open.
-[[What is inside?-&gt;Cole - Character Select 1 - Transition]]</tw-passagedata><tw-passagedata pid="36" name="Cole - Character Select 1 - Transition" tags="" position="1746,747.6666666666667" size="100,100">&quot;Now, we can&#39;t let you just see what Cole is up to. You need to choose your character.&quot; (set: $cole_story_1 to false) (set: $remy_story_1 to false) (set: $acer_story_1 to false) (set: $acer_door_can_open to 3) (set: $acer_lily to false) (set: $acer_marigold to false) (set: $acer_tulip to false) (set: $acer_rose to false) (set: $acer_completed_yellow_door to false)
+[[What is inside?-&gt;Cole - Character Select 1 - Transition]]</tw-passagedata><tw-passagedata pid="36" name="Cole - Character Select 1 - Transition" tags="" position="1746,747" size="100,100">&quot;Now, we can&#39;t let you just see what Cole is up to. You need to choose your character.&quot; (set: $cole_story_1 to false) (set: $remy_story_1 to false) (set: $acer_story_1 to false) (set: $acer_door_can_open to 3) (set: $acer_lily to false) (set: $acer_marigold to false) (set: $acer_tulip to false) (set: $acer_rose to false) (set: $acer_completed_yellow_door to false)
 [[Go to character selection screen-&gt;Character Select 1]]</tw-passagedata><tw-passagedata pid="37" name="Character Select 1" tags="" position="1736,1421" size="100,100">Here you can choose to follow each of our three Characters.
 (if:$acer_story_1 is false)[[[Let&#39;s see what Acer is up to-&gt;Acer Story 1]]] (if:$acer_story_1 is true)[You have already followed Acer. Their story was interesting, right?]
 (if:$remy_story_1 is false)[[[Let&#39;s see what Remy is up to-&gt;Remy Story 1]]] (if:$remy_story_1 is true)[You have already followed Remy. His story was magical, right?]
 (if:$cole_story_1 is false)[[[Let&#39;s see what Cole is up to-&gt;Cole Story 1]]] (if:$cole_story_1 is true)[You have already followed Cole. His story was really cool, right?]
-(more:)[[[Well, that was interesting. Let&#39;s go linear for a while.-&gt;After Character Select 1]]]</tw-passagedata><tw-passagedata pid="38" name="Cole Story 1" tags="" position="1778,1593.3333333333333" size="100,100">(text-colour:blue)[Let&#39;s follow Cole]
+(more:)[[[Well, that was interesting. Let&#39;s go linear for a while.-&gt;After Character Select 1]]]</tw-passagedata><tw-passagedata pid="38" name="Cole Story 1" tags="" position="1778,1593" size="100,100">(text-colour:blue)[Let&#39;s follow Cole]
 &quot;Where was Cole?&quot;
 &quot;Oh right, opening the chest.&quot;
 &quot;Cole, if you would oblige please.&quot;
 Cole didn&#39;t like the comforting girly voice.
 He would prefer not to be narrated.
 Also, what did she mean by &#39;where was he&#39;?
-[[Whatever, let&#39;s pick up what is in this chest.-&gt;Cole Story 1 chest]]</tw-passagedata><tw-passagedata pid="39" name="Cole Story 1 End" tags="" position="1633.3333333333333,1593.3333333333333" size="100,100">Cole exits the room and enters a wide open spaced foyer.
+[[Whatever, let&#39;s pick up what is in this chest.-&gt;Cole Story 1 chest]]</tw-passagedata><tw-passagedata pid="39" name="Cole Story 1 End" tags="" position="1633,1593" size="100,100">Cole exits the room and enters a wide open spaced foyer.
 He isn&#39;t sure why his room is connected to a foyer but it is.
 Cole quickly ducks behind a pillar in an attempt to hide himself.
-(set: $cole_story_1 to true) [[Let&#39;s see what everyone else is up to-&gt;Character Select 1]]</tw-passagedata><tw-passagedata pid="40" name="Acer Story 1" tags="" position="816.6666666666662,1280.0000000000005" size="100,100">(text-colour:yellow)[Let&#39;s follow Acer]
+(set: $cole_story_1 to true) [[Let&#39;s see what everyone else is up to-&gt;Character Select 1]]</tw-passagedata><tw-passagedata pid="40" name="Acer Story 1" tags="" position="816,1280" size="100,100">(text-colour:yellow)[Let&#39;s follow Acer]
 &quot;Where was Acer?&quot;
 &quot;Oh right, they were in a hallway.&quot;
 Acer looks around and sees three doors.
@@ -170,90 +170,90 @@ They think that the doors lead to other rooms where they hope to find a bow.
 Which door should Acer go into?
 (if:$acer_door_can_open is 1)[[[The yellow door-&gt;Acer story 1 door 1]]](else:)[[[The yellow door-&gt;Acer story 1 door 1 version 2]]]
 (if:$acer_door_can_open is 2)[[[The green door-&gt;Acer story 1 door 2]]](else:)[[[The green door-&gt;Acer story 1 door 2 version 2]]]
-(if:$acer_door_can_open is 3)[[[The door with flowers on it-&gt;Acer story 1 door 3]]](else:)[[[The flowers on it-&gt;Acer story 1 door 3 version 2]]]</tw-passagedata><tw-passagedata pid="41" name="Remy Story 1" tags="" position="1290.9999999999998,1426.3333333333333" size="100,100">(text-colour:purple)[Let&#39;s follow Remy]
+(if:$acer_door_can_open is 3)[[[The door with flowers on it-&gt;Acer story 1 door 3]]](else:)[[[The flowers on it-&gt;Acer story 1 door 3 version 2]]]</tw-passagedata><tw-passagedata pid="41" name="Remy Story 1" tags="" position="1290,1426" size="100,100">(text-colour:purple)[Let&#39;s follow Remy]
 &quot;Where was Remy?&quot;
 &quot;Oh right, the stairs.&quot;
 Remy decends the staircase and finds a staff sitting, quite comfortably, on a table.
 The room seems cosy, but Remy is on his guard.
 [[Wait to see if there is a trap-&gt;Remy Story 1 waiting]]
-[[Investigate the staff-&gt;Remy Story 1 investigating]]</tw-passagedata><tw-passagedata pid="42" name="Remy Story 1 End" tags="" position="1447.6666666666667,1575.3333333333335" size="100,100">Remy ponders what the piece of paper said. (set: $remy_story_1 to true)
-[[Let&#39;s see what everyone else is up to-&gt;Character Select 1]]</tw-passagedata><tw-passagedata pid="43" name="After Character Select 1" tags="" position="2199,1453.3333333333335" size="100,100">Tune in next time when I have written the rest of this story :)</tw-passagedata><tw-passagedata pid="44" name="Cole Story 1 chest" tags="" position="1783.3333333333333,1741.3333333333333" size="100,100">Inside the chest are a pair of sharp looking daggers.
+[[Investigate the staff-&gt;Remy Story 1 investigating]]</tw-passagedata><tw-passagedata pid="42" name="Remy Story 1 End" tags="" position="1447,1575" size="100,100">Remy ponders what the piece of paper said. (set: $remy_story_1 to true)
+[[Let&#39;s see what everyone else is up to-&gt;Character Select 1]]</tw-passagedata><tw-passagedata pid="43" name="After Character Select 1" tags="" position="2199,1453" size="100,100">Tune in next time when I have written the rest of this story :)</tw-passagedata><tw-passagedata pid="44" name="Cole Story 1 chest" tags="" position="1783,1741" size="100,100">Inside the chest are a pair of sharp looking daggers.
 The daggers are housed in their own (text-colour:blue)[blue] scabbard.
 &quot;Cute!&quot;
 Cole ties the daggers to his belt.
 Being armed has a few benefits.
-[[Turn around-&gt;Cole Story 1 fight introduction]]</tw-passagedata><tw-passagedata pid="45" name="Cole Story 1 fight introduction" tags="" position="1776.3333333333333,1898.3333333333333" size="100,100">&quot;Ah!&quot; Cole screams as a skeleton appears behind him.
+[[Turn around-&gt;Cole Story 1 fight introduction]]</tw-passagedata><tw-passagedata pid="45" name="Cole Story 1 fight introduction" tags="" position="1776,1898" size="100,100">&quot;Ah!&quot; Cole screams as a skeleton appears behind him.
 Lucky for Cole, the skeleton seems to have opened the door for him.
 Unluckily for Cole, the skeleton seems to want to fight.
 Cole takes his daggers out of their scabbards and assumes a combat stance.
 Cole isn&#39;t very good at this and so he doesn&#39;t assume a //good// combat stance.
 No matter.
 (if:$cole_table_crash is true)[Cole is not feeling the best after the table incident.(set: $cole_hp to 9)](else:)[Cole is ready for battle.(set: $cole_hp to 13)](set: $skeleton_hp to 7)(set: $turn to -1)
-[[En garde!-&gt;Cole Story 1 fight]]</tw-passagedata><tw-passagedata pid="46" name="Cole Story 1 fight" tags="" position="1788.3333333333333,2051.3333333333335" size="100,100">Cole eyes up the skeleton. (set: $turn to $turn + 1)
+[[En garde!-&gt;Cole Story 1 fight]]</tw-passagedata><tw-passagedata pid="46" name="Cole Story 1 fight" tags="" position="1788,2051" size="100,100">Cole eyes up the skeleton. (set: $turn to $turn + 1)
 Cole is (cond: $cole_hp &gt; 9, &quot;fully healthy&quot;, $cole_hp &gt; 6, &quot;a bit beat up&quot;, $cole_hp &gt; 3, &quot;very beat up&quot;, &quot;basically dead&quot;).
 The skeleton is (cond: $skeleton_hp &gt; 4, &quot;fully healthy&quot;, $skeleton_hp &gt; 2, &quot;a bit beat up&quot;, $skeleton_hp &gt; 1, &quot;very beat up&quot;, &quot;basically dead&quot;).
 What will you do?
-[[Attack the skeleton-&gt;Cole Story 1 fight attack]] or [[Dodge-&gt;Cole Story 1 fight dodge]]</tw-passagedata><tw-passagedata pid="47" name="Cole Story 1 fight attack" tags="" position="1636.3333333333333,2219.3333333333335" size="100,100">Cole slices his daggers at the skeleton.   (set:$skeleton_hp to $skeleton_hp - 2)
+[[Attack the skeleton-&gt;Cole Story 1 fight attack]] or [[Dodge-&gt;Cole Story 1 fight dodge]]</tw-passagedata><tw-passagedata pid="47" name="Cole Story 1 fight attack" tags="" position="1636,2219" size="100,100">Cole slices his daggers at the skeleton.   (set:$skeleton_hp to $skeleton_hp - 2)
 (if: $turn is 2 or $turn is 3 or $turn is 6 or $turn is 8)[The skeleton does a massive blow to Cole. (set:$cole_hp to $cole_hp - 4)] (else: )[The skeleton does a glancing blow to Cole. (set: $cole_hp to $cole_hp - 1)]
-(if: $cole_hp &lt; 1)[Cole is dead. Good job. [[Try again?-&gt;Cole Story 1 fight introduction]]] (else-if: $skeleton_hp &lt; 1)[You win, [[congratulations!-&gt;Cole Story 1 fight aftermath]]] (else:) [[[Continue the fight-&gt;Cole Story 1 fight]]]</tw-passagedata><tw-passagedata pid="48" name="Cole Story 1 fight dodge" tags="" position="1823.3333333333333,2206.3333333333335" size="100,100">Cole effortlessly dodges the skeletons (if: $turn is 2 or $turn is 3 or $turn is 6 or $turn is 8)[massive](else:)[glancing] blow.
-[[Continue the fight-&gt;Cole Story 1 fight]]</tw-passagedata><tw-passagedata pid="49" name="Cole Story 1 fight aftermath" tags="" position="1604.3333333333333,2053.3333333333335" size="100,100">Cole pants as he watches the skeleton fall in a mess.
+(if: $cole_hp &lt; 1)[Cole is dead. Good job. [[Try again?-&gt;Cole Story 1 fight introduction]]] (else-if: $skeleton_hp &lt; 1)[You win, [[congratulations!-&gt;Cole Story 1 fight aftermath]]] (else:) [[[Continue the fight-&gt;Cole Story 1 fight]]]</tw-passagedata><tw-passagedata pid="48" name="Cole Story 1 fight dodge" tags="" position="1823,2206" size="100,100">Cole effortlessly dodges the skeletons (if: $turn is 2 or $turn is 3 or $turn is 6 or $turn is 8)[massive](else:)[glancing] blow.
+[[Continue the fight-&gt;Cole Story 1 fight]]</tw-passagedata><tw-passagedata pid="49" name="Cole Story 1 fight aftermath" tags="" position="1604,2053" size="100,100">Cole pants as he watches the skeleton fall in a mess.
 Cole (cond: $cole_hp &gt; 8, &quot;somehow managed to get through that healthy&quot;, $cole_hp &gt; 5, &quot;took a few hits&quot;, $cole_hp &gt; 2, &quot;barely escaped that&quot;, &quot;just survived&quot;).
 Cole takes a mental note that he should get a bit of experience with these daggers. He may not be as lucky next time.
-[[Check if the skeleton dropped any loot-&gt;Cole Story 1 loot]]</tw-passagedata><tw-passagedata pid="50" name="Cole Story 1 loot" tags="" position="1604.3333333333333,1894.3333333333333" size="100,100">Cole saunters towards the skeleton, hoping for some loot.
+[[Check if the skeleton dropped any loot-&gt;Cole Story 1 loot]]</tw-passagedata><tw-passagedata pid="50" name="Cole Story 1 loot" tags="" position="1604,1894" size="100,100">Cole saunters towards the skeleton, hoping for some loot.
 Unfortunately the skeleton has no such loot.
 That&#39;s disapointing.
-[[Leave the room-&gt;Cole Story 1 room leaving]]</tw-passagedata><tw-passagedata pid="51" name="Cole Story 1 room leaving" tags="" position="1616.3333333333333,1741.3333333333333" size="100,100">Cole heads to the now opened door.
+[[Leave the room-&gt;Cole Story 1 room leaving]]</tw-passagedata><tw-passagedata pid="51" name="Cole Story 1 room leaving" tags="" position="1616,1741" size="100,100">Cole heads to the now opened door.
 He reaches the exit and...
-[[===&gt;-&gt;Cole Story 1 End]]</tw-passagedata><tw-passagedata pid="52" name="Acer story 1 door 1" tags="" position="851.6666666666662,1480.0000000000002" size="100,100">Acer tries to open the (text-colour:yellow)[yellow] door and it opens.
+[[===&gt;-&gt;Cole Story 1 End]]</tw-passagedata><tw-passagedata pid="52" name="Acer story 1 door 1" tags="" position="851,1480" size="100,100">Acer tries to open the (text-colour:yellow)[yellow] door and it opens.
 This room has a number of (text-colour:yellow)[yellow] light barriers in a maze like pattern.
 Great. Acer doesn&#39;t like puzzles.
 What should Acer do?
 [[Try to walk through the yellow barriers-&gt;Acer story 1 door 1 barrier 1]]
-[[Attempt to solve the maze-&gt;Acer story 1 door 1 maze]]</tw-passagedata><tw-passagedata pid="53" name="Acer story 1 door 1 version 2" tags="" position="803.3333333333328,963.3333333333336" size="100,100">(if: $acer_completed_yellow_door is false)[Acer tries to open the (text-colour:yellow)[yellow] door but it doesn&#39;t open.](else:) [Acer has already gone through the (text-colour:yellow)[yellow] door. There is nothing else to see.]
-[[Go back-&gt;Acer Story 1]]</tw-passagedata><tw-passagedata pid="54" name="Acer story 1 door 2" tags="" position="1273.3333333333333,1025.000000000001" size="100,100">Acer tries to open the (text-colour:green)[green] door and it opens.
+[[Attempt to solve the maze-&gt;Acer story 1 door 1 maze]]</tw-passagedata><tw-passagedata pid="53" name="Acer story 1 door 1 version 2" tags="" position="803,963" size="100,100">(if: $acer_completed_yellow_door is false)[Acer tries to open the (text-colour:yellow)[yellow] door but it doesn&#39;t open.](else:) [Acer has already gone through the (text-colour:yellow)[yellow] door. There is nothing else to see.]
+[[Go back-&gt;Acer Story 1]]</tw-passagedata><tw-passagedata pid="54" name="Acer story 1 door 2" tags="" position="1273,1025" size="100,100">Acer tries to open the (text-colour:green)[green] door and it opens.
 This room has a bow in the centre of it.
 Acer picks it up and slings it around their shoulder.
 They also pick up the quiver containing 20 arrows. (set: $acer_arrows to 20)
-(set: $acer_story_1 to true) [[Let&#39;s see what everyone else is up to-&gt;Character Select 1]]</tw-passagedata><tw-passagedata pid="55" name="Acer story 1 door 2 version 2" tags="" position="643.3333333333331,1000.0000000000003" size="100,100">Acer tries to open the (text-colour:green)[green] door but it doesn&#39;t open.
-[[Go back-&gt;Acer Story 1]]</tw-passagedata><tw-passagedata pid="56" name="Acer story 1 door 3" tags="" position="586.6666666666662,1165.0000000000007" size="100,100">Acer tries to open the door with flowers on it and it opens.
+(set: $acer_story_1 to true) [[Let&#39;s see what everyone else is up to-&gt;Character Select 1]]</tw-passagedata><tw-passagedata pid="55" name="Acer story 1 door 2 version 2" tags="" position="643,1000" size="100,100">Acer tries to open the (text-colour:green)[green] door but it doesn&#39;t open.
+[[Go back-&gt;Acer Story 1]]</tw-passagedata><tw-passagedata pid="56" name="Acer story 1 door 3" tags="" position="586,1165" size="100,100">Acer tries to open the door with flowers on it and it opens.
 Awesome! (set: $acer_flowers_sniffed to 0) (set: $acer_marigold to false) (set: $acer_hp to 10)
-[[Step into the room-&gt;Acer story 1 door 3 part 2]]</tw-passagedata><tw-passagedata pid="57" name="Acer story 1 door 3 version 2" tags="" position="1101.6666666666663,1360.0000000000002" size="100,100">Acer has already gone through the flower door.
+[[Step into the room-&gt;Acer story 1 door 3 part 2]]</tw-passagedata><tw-passagedata pid="57" name="Acer story 1 door 3 version 2" tags="" position="1101,1360" size="100,100">Acer has already gone through the flower door.
 There is nothing else to see.
-[[Go back-&gt;Acer Story 1]]</tw-passagedata><tw-passagedata pid="58" name="Acer story 1 door 3 part 2" tags="" position="474.9999999999996,1308.3333333333337" size="100,100">The room has many beautiful flowers scattered about the place.
-There are some Lilys, some Tulips, a few Marigolds and a singular (text-colour:red)[red] Rose.
+[[Go back-&gt;Acer Story 1]]</tw-passagedata><tw-passagedata pid="58" name="Acer story 1 door 3 part 2" tags="" position="474,1308" size="100,100">The room has many beautiful flowers scattered about the place.
+There are some Lillies, some Tulips, a few Marigolds and a singular (text-colour:red)[red] Rose.
 What will Acer do?
-(if: $acer_lily is false)[[[Investigate the Lilys-&gt;Acer story 1 door 3 Lily]]] (else:) [The lilys were amazingly aromatic.]
+(if: $acer_lily is false)[[[Investigate the Lillies-&gt;Acer story 1 door 3 Lily]]] (else:) [The Lillies were amazingly aromatic.]
 (if: $acer_tulip is false)[[[Investigate the Tulips-&gt;Acer story 1 door 3 Tulips]]](else:) [The tulips were beautiful.]
 (if: $acer_marigold is false)[[[Investigate the Marigolds-&gt;Acer story 1 door 3 Marigolds]]] (else:) [Acer is glad they took a Marigold.]
 (if: $acer_rose is false)[[[Investigate the Rose-&gt;Acer story 1 door 3 Rose]]] (else:) [Ow, that was a mean rose!]
-(if:$acer_chest_flowers is true)[[[Place your flowers onto the pedestal-&gt;Acer story 1 door 3 pedestal]]]</tw-passagedata><tw-passagedata pid="59" name="Acer story 1 door 3 Lily" tags="" position="160,1458.3333333333335" size="100,100">Acer sniffs the lilys.
+(if:$acer_chest_flowers is true)[[[Place your flowers onto the pedestal-&gt;Acer story 1 door 3 pedestal]]]</tw-passagedata><tw-passagedata pid="59" name="Acer story 1 door 3 Lily" tags="" position="160,1458" size="100,100">Acer sniffs the lillies.
 They are very aromatic and fill the room with a pleasant smell. (set: $acer_flowers_sniffed to $acer_flowers_sniffed + 1) (set:$acer_lily to true)
 (if:$acer_flowers_sniffed &lt; 2)[[Go back-&gt;Acer story 1 door 3 part 2]](more:)[Acer hears a sound.
-[[Turn around to see it-&gt;Acer story 1 door 3 conclusion]]]</tw-passagedata><tw-passagedata pid="60" name="Acer story 1 door 3 Tulips" tags="" position="303.33333333333337,1460.0000000000002" size="100,100">Acer sniffs the Tulips.
+[[Turn around to see it-&gt;Acer story 1 door 3 conclusion]]]</tw-passagedata><tw-passagedata pid="60" name="Acer story 1 door 3 Tulips" tags="" position="303,1460" size="100,100">Acer sniffs the Tulips.
 The Tulips have a very faint smell which is hard to detect. (set: $acer_flowers_sniffed to $acer_flowers_sniffed + 1) (set:$acer_tulip to true)
 (if:$acer_flowers_sniffed &lt; 2)[[Go back-&gt;Acer story 1 door 3 part 2]](more:)[Acer hears a sound.
-[[Turn around to see it-&gt;Acer story 1 door 3 conclusion]]]</tw-passagedata><tw-passagedata pid="61" name="Acer story 1 door 3 Marigolds" tags="" position="546.6666666666662,1448.3333333333342" size="100,100">The Marigolds are really beautiful.
+[[Turn around to see it-&gt;Acer story 1 door 3 conclusion]]]</tw-passagedata><tw-passagedata pid="61" name="Acer story 1 door 3 Marigolds" tags="" position="546,1448" size="100,100">The Marigolds are really beautiful.
 Acer decides to take one, just incase they are useful. (set: $acer_flowers_sniffed to $acer_flowers_sniffed + 1) (set: $acer_marigold to true) (set: $acer_has_marigold to true)
 (if:$acer_flowers_sniffed &lt; 2)[[Go back-&gt;Acer story 1 door 3 part 2]](more:)[Acer hears a sound.
-[[Turn around to see it-&gt;Acer story 1 door 3 conclusion]]]</tw-passagedata><tw-passagedata pid="62" name="Acer story 1 door 3 Rose" tags="" position="164.99999999999994,1130.0000000000007" size="100,100">The (text-colour:red)[red] rose is very alluring.
+[[Turn around to see it-&gt;Acer story 1 door 3 conclusion]]]</tw-passagedata><tw-passagedata pid="62" name="Acer story 1 door 3 Rose" tags="" position="164,1130" size="100,100">The (text-colour:red)[red] rose is very alluring.
 Acer puts their hand towards the rose.
 The rose suddenly bites Acer&#39;s hand.
 Ow! (set: $acer_hp to 7) (set: $acer_rose to true)
-[[Go back-&gt;Acer story 1 door 3 part 2]]</tw-passagedata><tw-passagedata pid="63" name="Acer story 1 door 3 pedestal" tags="" position="421.6666666666666,1458.0000000000002" size="100,100">Acer walks up to the pedestal.
+[[Go back-&gt;Acer story 1 door 3 part 2]]</tw-passagedata><tw-passagedata pid="63" name="Acer story 1 door 3 pedestal" tags="" position="421,1458" size="100,100">Acer walks up to the pedestal.
 They take out the pretty (text-colour:yellow)[yellow] and a soothing (text-colour:green)[green] flowers and put them on the pedestal.
 Acer hears a sound.
-[[Turn around to see it-&gt;Acer story 1 door 3 conclusion]]</tw-passagedata><tw-passagedata pid="64" name="Acer story 1 door 3 conclusion" tags="" position="479.99999999999903,1736.6666666666672" size="100,100">The flower door has lights on top of it.
+[[Turn around to see it-&gt;Acer story 1 door 3 conclusion]]</tw-passagedata><tw-passagedata pid="64" name="Acer story 1 door 3 conclusion" tags="" position="479,1736" size="100,100">The flower door has lights on top of it.
 Acer wonders if that means that they somehow completed the puzzle.
 Hrrm. (set: $acer_door_can_open to 1) (set: $acer_completed_yellow_door to true)
-[[Go back to the hallway-&gt;Acer Story 1]]</tw-passagedata><tw-passagedata pid="65" name="Acer story 1 door 1 barrier 1" tags="" position="706.6666666666662,1503.3333333333337" size="100,100">Acer walks with confidence towards the barriers.
+[[Go back to the hallway-&gt;Acer Story 1]]</tw-passagedata><tw-passagedata pid="65" name="Acer story 1 door 1 barrier 1" tags="" position="706,1503" size="100,100">Acer walks with confidence towards the barriers.
 The barriers won&#39;t stop them.
-[[===&gt;-&gt;Acer story 1 door 1 barrier 2]]</tw-passagedata><tw-passagedata pid="66" name="Acer story 1 door 1 maze" tags="" position="883.3333333333331,1630.0000000000005" size="100,100">Since Acer can see through the (text-colour:yellow)[yellow] light barriers, it actually isn&#39;t that hard.
+[[===&gt;-&gt;Acer story 1 door 1 barrier 2]]</tw-passagedata><tw-passagedata pid="66" name="Acer story 1 door 1 maze" tags="" position="883,1630" size="100,100">Since Acer can see through the (text-colour:yellow)[yellow] light barriers, it actually isn&#39;t that hard.
 Left, Left, Straight, Right, Straight, Left.
-[[Press the button at the end of the maze-&gt;Acer story 1 door 1 maze end]]</tw-passagedata><tw-passagedata pid="67" name="Acer story 1 door 1 barrier 2" tags="" position="724.9999999999992,1635.0000000000002" size="100,100">Ow!
+[[Press the button at the end of the maze-&gt;Acer story 1 door 1 maze end]]</tw-passagedata><tw-passagedata pid="67" name="Acer story 1 door 1 barrier 2" tags="" position="724,1635" size="100,100">Ow!
 Acer stands corrected. (set: $acer_hp to $acer_hp - 2)
-[[Fine! Attempt to solve the maze-&gt;Acer story 1 door 1 maze]]</tw-passagedata><tw-passagedata pid="68" name="Acer story 1 door 1 maze end" tags="" position="994.9999999999997,1503.3333333333337" size="100,100">Acer hears a sound and the impassible (text-colour:yellow)[yellow] light barriers disappear.
+[[Fine! Attempt to solve the maze-&gt;Acer story 1 door 1 maze]]</tw-passagedata><tw-passagedata pid="68" name="Acer story 1 door 1 maze end" tags="" position="994,1503" size="100,100">Acer hears a sound and the impassible (text-colour:yellow)[yellow] light barriers disappear.
 As with the flower room, the (text-colour:green)[green] room&#39;s door now has lights at the top. (set: $acer_door_can_open to 2)
-[[Go back to the hallway-&gt;Acer Story 1]]</tw-passagedata><tw-passagedata pid="69" name="Remy Story 1 waiting" tags="" position="1309.333333333333,1581.3333333333333" size="100,100">Remy looks around and waits a considerable time.
+[[Go back to the hallway-&gt;Acer Story 1]]</tw-passagedata><tw-passagedata pid="69" name="Remy Story 1 waiting" tags="" position="1309,1581" size="100,100">Remy looks around and waits a considerable time.
 Hopefully, something will happen.
 .
 ..
@@ -261,31 +261,31 @@ Hopefully, something will happen.
 ....
 .....
 ......
-[[Wait a bit-&gt;Remy Story 1 waiting 2]]</tw-passagedata><tw-passagedata pid="70" name="Remy Story 1 investigating" tags="" position="1159.333333333333,1576.3333333333333" size="100,100">Remy approaches the staff and gets a better look at it.
+[[Wait a bit-&gt;Remy Story 1 waiting 2]]</tw-passagedata><tw-passagedata pid="70" name="Remy Story 1 investigating" tags="" position="1159,1576" size="100,100">Remy approaches the staff and gets a better look at it.
 The staff is a beautiful (text-colour:purple)[purple] colour.
 It also has a (text-colour:red)[red] heart shape on the top of it.
 Remy squeals in delight.
 It&#39;s the perfect staff for him.
-[[Pick up the staff-&gt;Remy Story 1 staff]]</tw-passagedata><tw-passagedata pid="71" name="Remy Story 1 waiting 2" tags="" position="1307.6666666666663,1733" size="100,100">Nothing happens.
+[[Pick up the staff-&gt;Remy Story 1 staff]]</tw-passagedata><tw-passagedata pid="71" name="Remy Story 1 waiting 2" tags="" position="1307,1733" size="100,100">Nothing happens.
 That was a waste of time.
-[[Investigate the staff-&gt;Remy Story 1 investigating]]</tw-passagedata><tw-passagedata pid="72" name="Remy Story 1 staff" tags="" position="1135.9999999999998,1734.6666666666667" size="100,100">Remy picks up the (text-colour:purple)[purple] staff and swings it around like an idiot.
+[[Investigate the staff-&gt;Remy Story 1 investigating]]</tw-passagedata><tw-passagedata pid="72" name="Remy Story 1 staff" tags="" position="1135,1734" size="100,100">Remy picks up the (text-colour:purple)[purple] staff and swings it around like an idiot.
 &quot;And here we see someone who is delighted by his new staff.&quot;
 Remy stops swinging the staff around.
 &quot;It was cute, you should do it again.&quot;
 Remy pouts.
 He notices a piece of paper on the table.
-[[Read the piece of paper-&gt;Remy Story 1 staff instructions]]</tw-passagedata><tw-passagedata pid="73" name="Remy Story 1 staff instructions" tags="" position="1137.6666666666665,1891.3333333333335" size="100,100">Remy reads the piece of paper out loud.
-&quot;This is the staff of heart. If you are the chosen hero, you should be able to wield it&#39;s power. Raise the staff on high and use the phrase of activation.&quot;
+[[Read the piece of paper-&gt;Remy Story 1 staff instructions]]</tw-passagedata><tw-passagedata pid="73" name="Remy Story 1 staff instructions" tags="" position="1137,1891" size="100,100">Remy reads the piece of paper out loud.
+&quot;This is the staff of heart. If you are the chosen hero, you should be able to wield its power. Raise the staff on high and use the phrase of activation.&quot;
 Remy frowns.
-[[Do what the paper insructs-&gt;Remy Story 1 staff instructions 2]]</tw-passagedata><tw-passagedata pid="74" name="Remy Story 1 staff instructions 2" tags="" position="1297.6666666666665,1888.0000000000002" size="100,100">He chooses a bookshelf as a target and raises his staff.
+[[Do what the paper insructs-&gt;Remy Story 1 staff instructions 2]]</tw-passagedata><tw-passagedata pid="74" name="Remy Story 1 staff instructions 2" tags="" position="1297,1888" size="100,100">He chooses a bookshelf as a target and raises his staff.
 &quot;Love conquers!&quot;
 A brilliant flash of (text-colour:red)[red] light eminates from the staff.
 The (text-colour:red)[red] light hits the bookcase.
-[[===&gt;-&gt;Remy Story 1 staff instructions 3]]</tw-passagedata><tw-passagedata pid="75" name="Remy Story 1 staff instructions 3" tags="" position="1444.3333333333333,1889.666666666667" size="100,100">The bookcase explodes.
+[[===&gt;-&gt;Remy Story 1 staff instructions 3]]</tw-passagedata><tw-passagedata pid="75" name="Remy Story 1 staff instructions 3" tags="" position="1444,1889" size="100,100">The bookcase explodes.
 &quot;The staff is a powerful weapon. Use it wisely.&quot;
 Remy was starting to get used to this Narrator, whoever she was.
 It was nice to have company.
-[[===&gt;-&gt;Remy Story 1 staff conclusion]]</tw-passagedata><tw-passagedata pid="76" name="Remy Story 1 staff conclusion" tags="" position="1442.6666666666665,1718.0000000000002" size="100,100">Remy looked back at the piece of paper but the text had changed.
+[[===&gt;-&gt;Remy Story 1 staff conclusion]]</tw-passagedata><tw-passagedata pid="76" name="Remy Story 1 staff conclusion" tags="" position="1442,1718" size="100,100">Remy looked back at the piece of paper but the text had changed.
 Remy again read aloud.
 &quot;There are many such phrases you can learn on your adventure.&quot;
 [[Ponder this realisation-&gt;Remy Story 1 End]]</tw-passagedata></tw-storydata>
