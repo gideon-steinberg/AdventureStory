@@ -85,7 +85,7 @@ Remy pockets the baubble.
 Well, that was a waste of time.
 [[Try to open the door, maybe that is more productive?-&gt;Remy staff door]]</tw-passagedata><tw-passagedata pid="21" name="Remy staff door" tags="" position="1206,522" size="100,100">Remy tris to open the door.
 This proves quite pointless as there isn&#39;t a door blocking the passageway to the other rooms in his house.
-[[Go through the passageway-&gt;Remy staff passageway]]</tw-passagedata><tw-passagedata pid="22" name="Variables" tags="" position="435,505" size="100,100">acer_has_marigold -&gt; did acer pick up the marigold?
+[[Go through the passageway-&gt;Remy staff passageway]]</tw-passagedata><tw-passagedata pid="22" name="Variables" tags="" position="440,503.3333333333333" size="100,100">acer_has_marigold -&gt; did acer pick up the marigold?
 remy_staff_baubble -&gt; did the player look for the staff and find a (text-colour:gray)[grey] baubble?
 cole_hp -&gt; Cole&#39;s hp (max 13)
 acer_hp -&gt; Acer&#39;s hp (max 10)
@@ -110,7 +110,7 @@ It takes a fair bit of willpower to do so.
 Man, they are awesome.
 [[===&gt;-&gt;Remy-Cole-1-transition]]</tw-passagedata><tw-passagedata pid="26" name="Remy-Cole-1-transition" tags="" position="687,450" size="100,100">Going down these stairs will have to wait.
 We need to introduce our final character.
-[[Go to the final character-&gt;Cole Introduction 1]]</tw-passagedata><tw-passagedata pid="27" name="Cole Introduction 1" tags="" position="682,607" size="100,100">(text-colour:blue)[The Adventure cools down with Cole]
+[[Go to the final character-&gt;Cole Introduction 1]]</tw-passagedata><tw-passagedata pid="27" name="Cole Introduction 1" tags="" position="682,607" size="100,100">(text-colour:navy)[The Adventure cools down with Cole]
 &quot;A cool man stands in his bedroom.&quot;
 &quot;Who is this cool man?&quot;
 The man doesn&#39;t react to the Narrator which is a bit odd.
@@ -118,7 +118,7 @@ The man doesn&#39;t react to the Narrator which is a bit odd.
 &lt;silence&gt;
 &quot;Fine, cool guy Cole. Let&#39;s look around your room.&quot;
 [[Look around Cole&#39;s room-&gt;Cole Introduction 2]]</tw-passagedata><tw-passagedata pid="28" name="Cole Introduction 2" tags="" position="691,761" size="100,100">&quot;Cole wears his coolguy cloak.&quot;
-&quot;It is supposedly used for stealth but it is quite ineffective due to its colour (it&#39;s (text-colour:blue)[blue]).&quot;
+&quot;It is supposedly used for stealth but it is quite ineffective due to its colour (it&#39;s (text-colour:navy)[blue]).&quot;
 Cole murmurs at a barely audible level and whips his cloak around. It looks pretty badass.
 &quot;Thank you Cole, at least you are helping a little bit.&quot;
 Cole doesn&#39;t acknowledge the comment.
@@ -141,7 +141,7 @@ Oh well.
 He sees a chest hiding in the corner of the room.
 Was it always there?
 [[Approach the chest-&gt;Cole daggers chest 1]]</tw-passagedata><tw-passagedata pid="33" name="Cole daggers chest 1" tags="" position="1393,738" size="100,100">Cole approaches the suspicious chest.
-It is (text-colour:blue)[blue] for some reason.
+It is (text-colour:navy)[blue] for some reason.
 [[Open it!-&gt;Cole daggers chest 2]]</tw-passagedata><tw-passagedata pid="34" name="Cole daggers 3" tags="" position="1239,818" size="100,100">While attempting to act like a normal person, Cole looks around the room.
 He spys a chest.
 Intriguing.
@@ -152,7 +152,7 @@ He carefully pushes the lid open.
 (if:$acer_story_1 is false)[[[Let&#39;s see what Acer is up to-&gt;Acer Story 1]]] (if:$acer_story_1 is true)[You have already followed Acer. Their story was interesting, right?]
 (if:$remy_story_1 is false)[[[Let&#39;s see what Remy is up to-&gt;Remy Story 1]]] (if:$remy_story_1 is true)[You have already followed Remy. His story was magical, right?]
 (if:$cole_story_1 is false)[[[Let&#39;s see what Cole is up to-&gt;Cole Story 1]]] (if:$cole_story_1 is true)[You have already followed Cole. His story was really cool, right?]
-(more:)[[[Well, that was interesting. Let&#39;s go linear for a while.-&gt;Cole Story 2 Intro]]]</tw-passagedata><tw-passagedata pid="38" name="Cole Story 1" tags="" position="1778,1593" size="100,100">(text-colour:blue)[Let&#39;s follow Cole]
+(more:)[[[Well, that was interesting. Let&#39;s go linear for a while.-&gt;Cole Story 2 Intro]]]</tw-passagedata><tw-passagedata pid="38" name="Cole Story 1" tags="" position="1778,1593" size="100,100">(text-colour:navy)[Let&#39;s follow Cole]
 &quot;Where was Cole?&quot;
 &quot;Oh right, opening the chest.&quot;
 &quot;Cole, if you would oblige please.&quot;
@@ -182,7 +182,7 @@ As he does so, the light goes out of the room and a beam of light appears.
 The beam of light moves and Cole watches it for a time.
 [[Step into the darkened area-&gt;Cole darkened area]]
 [[Step into the beam of light-&gt;Cole Story 2 beams 1]]</tw-passagedata><tw-passagedata pid="44" name="Cole Story 1 chest" tags="" position="1783,1741" size="100,100">Inside the chest are a pair of sharp looking daggers.
-The daggers are housed in their own (text-colour:blue)[blue] scabbard.
+The daggers are housed in their own (text-colour:navy)[blue] scabbard.
 &quot;Cute!&quot;
 Cole ties the daggers to his belt.
 Being armed has a few benefits.
@@ -197,9 +197,9 @@ No matter.
 Cole is (cond: $cole_hp &gt; 9, &quot;fully healthy&quot;, $cole_hp &gt; 6, &quot;a bit beat up&quot;, $cole_hp &gt; 3, &quot;very beat up&quot;, &quot;basically dead&quot;).
 The skeleton is (cond: $skeleton_hp &gt; 4, &quot;fully healthy&quot;, $skeleton_hp &gt; 2, &quot;a bit beat up&quot;, $skeleton_hp &gt; 1, &quot;very beat up&quot;, &quot;basically dead&quot;).
 What will you do?
-[[Attack the skeleton-&gt;Cole Story 1 fight attack]] or [[Dodge-&gt;Cole Story 1 fight dodge]]</tw-passagedata><tw-passagedata pid="47" name="Cole Story 1 fight attack" tags="" position="1636,2217.3333333333335" size="100,100">Cole slices his daggers at the skeleton.   (set:$skeleton_hp to $skeleton_hp - 2)
+[[Attack the skeleton-&gt;Cole Story 1 fight attack]] or [[Dodge-&gt;Cole Story 1 fight dodge]]</tw-passagedata><tw-passagedata pid="47" name="Cole Story 1 fight attack" tags="" position="1636,2217" size="100,100">Cole slices his daggers at the skeleton.   (set:$skeleton_hp to $skeleton_hp - 2)
 (if: $turn is 2 or $turn is 3 or $turn is 6 or $turn is 8)[The skeleton does a massive blow to Cole. (set:$cole_hp to $cole_hp - 4)] (else: )[The skeleton does a glancing blow to Cole. (set: $cole_hp to $cole_hp - 1)]
-(if: $cole_hp &lt; 1)[Cole is dead. Good job. [[Try again?-&gt;Cole Story 1 fight introduction]]] (else-if: $skeleton_hp &lt; 1)[You win, [[congratulations!-&gt;Cole Story 1 fight aftermath]]] (else:) [[[Continue the fight-&gt;Cole Story 1 fight]]]</tw-passagedata><tw-passagedata pid="48" name="Cole Story 1 fight dodge" tags="" position="1823,2206" size="100,100">Cole effortlessly dodges the skeletons (if: $turn is 2 or $turn is 3 or $turn is 6 or $turn is 8)[massive](else:)[glancing] blow.
+(if: $cole_hp &lt; 1)[Cole is dead. Good job. [[Try again?-&gt;Cole Story 1 fight introduction]]] (else-if: $skeleton_hp &lt; 1)[You win, [[congratulations!-&gt;Cole Story 1 fight aftermath]]] (else:) [[[Continue the fight-&gt;Cole Story 1 fight]]]</tw-passagedata><tw-passagedata pid="48" name="Cole Story 1 fight dodge" tags="" position="1786.3333333333333,2204.3333333333335" size="100,100">Cole effortlessly dodges the skeletons (if: $turn is 2 or $turn is 3 or $turn is 6 or $turn is 8)[massive](else:)[glancing] blow.
 [[Continue the fight-&gt;Cole Story 1 fight]]</tw-passagedata><tw-passagedata pid="49" name="Cole Story 1 fight aftermath" tags="" position="1604,2053" size="100,100">Cole pants as he watches the skeleton fall in a mess.
 Cole (cond: $cole_hp &gt; 8, &quot;somehow managed to get through that healthy&quot;, $cole_hp &gt; 5, &quot;took a few hits&quot;, $cole_hp &gt; 2, &quot;barely escaped that&quot;, &quot;just survived&quot;).
 Cole takes a mental note that he should get a bit of experience with these daggers. He may not be as lucky next time.
@@ -299,12 +299,12 @@ Nothing seems to happen for a moment.
 &quot;That was obviously going to happen, right?&quot;
 [[Try again?-&gt;Cole Story 2 Intro]]</tw-passagedata><tw-passagedata pid="79" name="Cole Story 2 beams 1" tags="" position="2202,1308" size="100,100">Cole steps into the beam.
 It moves towards the centre of the room.
-It stops next to a (text-colour:blue)[blue] button.
+It stops next to a (text-colour:navy)[blue] button.
 [[Press the button-&gt;Cole Story 2 beams button]]
-[[Don&#39;t press the button-&gt;Cole Story 2 beams nobutton 1]]</tw-passagedata><tw-passagedata pid="80" name="Cole Story 2 beams button" tags="" position="2377,1311" size="100,100">Cole pushes the (text-colour:blue)[blue] button.
+[[Don&#39;t press the button-&gt;Cole Story 2 beams nobutton 1]]</tw-passagedata><tw-passagedata pid="80" name="Cole Story 2 beams button" tags="" position="2377,1311" size="100,100">Cole pushes the (text-colour:navy)[blue] button.
 He wonders what that did.
 &quot;Hrrrm, a button pusher eh? I hope that doesn&#39;t come back to haunt you.&quot;
-[[==&gt;-&gt;Cole Story 2 beams button 2]]</tw-passagedata><tw-passagedata pid="81" name="Cole Story 2 beams nobutton 1" tags="" position="2049,1154" size="100,100">Cole avoids touching the (text-colour:blue)[blue] button.
+[[==&gt;-&gt;Cole Story 2 beams button 2]]</tw-passagedata><tw-passagedata pid="81" name="Cole Story 2 beams nobutton 1" tags="" position="2049,1154" size="100,100">Cole avoids touching the (text-colour:navy)[blue] button.
 The beam travels to another part of the room.
 Maybe Cole didn&#39;t need to push the button?
 [[==&gt;-&gt;Cole Story 2 beams nobutton 2]]</tw-passagedata><tw-passagedata pid="82" name="Cole Story 2 beams nobutton 2" tags="" position="1890,1146" size="100,100">The light flickers a bit.
@@ -319,15 +319,15 @@ Cole scrambles to the door, hoping he can make it.
 A giggle is heard on the speakers of the room.
 Who knows why the Narrator is speaking to a dead Cole.
 If only we could ask her.
-[[Try again?-&gt;Cole Story 2 Intro]]</tw-passagedata><tw-passagedata pid="85" name="Cole Story 2 beams button 2" tags="" position="2381.6666666666665,1163.6666666666667" size="100,100">Cole stays underneath the light beam.
+[[Try again?-&gt;Cole Story 2 Intro]]</tw-passagedata><tw-passagedata pid="85" name="Cole Story 2 beams button 2" tags="" position="2381,1163" size="100,100">Cole stays underneath the light beam.
 The light beam heads away from the door.
 Drat, Cole mutters under his breath.
 &quot;Oooh, getting worried? Look there is another beam of light. Maybe that will help?&quot;
 [[Hop into the next beam of light-&gt;Cole Story 2 beams button 3]]</tw-passagedata><tw-passagedata pid="86" name="Cole Story 2 beams button 3" tags="" position="2205,1177" size="100,100">Cole successfully makes the transition between the two beams of light.
 The beam of light travels in a random pattern in the room.
 At least the beam of light is heading more towards the exit.
-[[===&gt;-&gt;Cole Story 2 beams button 4]]</tw-passagedata><tw-passagedata pid="87" name="Cole Story 2 beams button 4" tags="" position="2192,1011" size="100,100">The beam of light stops in front of a (text-colour:blue)[blue] button.
-Cole thinks that pushing the first (text-colour:blue)[blue] button was good.
+[[===&gt;-&gt;Cole Story 2 beams button 4]]</tw-passagedata><tw-passagedata pid="87" name="Cole Story 2 beams button 4" tags="" position="2192,1011" size="100,100">The beam of light stops in front of a (text-colour:navy)[blue] button.
+Cole thinks that pushing the first (text-colour:navy)[blue] button was good.
 That must mean he should push this one.
 [[Push the button-&gt;Cole Story 2 beams button 5]]
 [[Wait 30 seconds and push the button-&gt;Cole Story 2 beams button 5]]</tw-passagedata><tw-passagedata pid="88" name="Cole Story 2 beams button 5" tags="" position="2037,1014" size="100,100">Cole pushes the button.
@@ -370,7 +370,7 @@ What kind of dumb enemies are these?
 Ah right, the ever present Narrator.
 Acer had quickly learned that the Narrator requires them to answer.
 Even if their questions made no sense.
-[[Answer the annoying Narrator-&gt;Acer Story 2 narrator]]</tw-passagedata><tw-passagedata pid="97" name="Acer Story 2 narrator" tags="" position="2198.6666666666665,726" size="100,100">&quot;I am checking for loot. This is a type of video game after all.&quot;
+[[Answer the annoying Narrator-&gt;Acer Story 2 narrator]]</tw-passagedata><tw-passagedata pid="97" name="Acer Story 2 narrator" tags="" position="2198,726" size="100,100">&quot;I am checking for loot. This is a type of video game after all.&quot;
 No reply. Maybe that would shut her up?
 &quot;Hrrrrrrrrm. You have a point. But seriously, why do you think the enemys would drop loot?&quot;
 Acer sighed.
@@ -397,176 +397,178 @@ The headband had sparkly ribbons in it.
 He put the (text-colour:purple)[purple] headband on their head.
 He then looked in the mirror in the room to see how he looked.
 &quot;Perfect&quot; he said aloud.
-[[===&gt;-&gt;Talk 1 part 1]]</tw-passagedata><tw-passagedata pid="102" name="Cole get phone" tags="" position="2057,306" size="100,100">Cole picks up a (text-colour:blue)[blue] headset.
+[[===&gt;-&gt;Talk 1 part 1]]</tw-passagedata><tw-passagedata pid="102" name="Cole get phone" tags="" position="2057,306" size="100,100">Cole picks up a (text-colour:navy)[blue] headset.
 Other than being blue, it wasn&#39;t remarkable.
 It fit well and was comfortable.
 That was all he could ask.
-He put the (text-colour:blue)[blue] headset on their head.
+He put the (text-colour:navy)[blue] headset on their head.
 [[===&gt;-&gt;Remy get phone]]</tw-passagedata><tw-passagedata pid="103" name="Talk 1 part 1" tags="" position="2207,152" size="100,100">(text-colour:yellow)[Acer: Hi? Is this thing working?]
-(text-colour:blue)[Cole: Woah, I can hear you.]
-(text-colour:blue)[Cole: Who are you?]
+(text-colour:navy)[Cole: Woah, I can hear you.]
+(text-colour:navy)[Cole: Who are you?]
 (text-colour:yellow)[Acer: My name is Acer and I am an archer.]
 (text-colour:yellow)[Acer: And yourself?]
-(text-colour:blue)[Cole: I am Cole. I am a rogue.]
-(text-colour:blue)[Cole: You know, daggers, stealth, being awesome.]
+(text-colour:navy)[Cole: I am Cole. I am a rogue.]
+(text-colour:navy)[Cole: You know, daggers, stealth, being awesome.]
 (text-colour:purple)[Remy: Really? You both sound super badass.]
 (text-colour:purple)[Remy: I am Remy by the way. I do magic and stuff.]
 (text-colour:yellow)[Acer: Magic? Yeah right.]
 (text-colour:purple)[Remy: No seriously. I have this awesome staff of heart. It destroys the enemies.]
-(text-colour:blue)[Cole: A staff of heart? Really dude?]
+(text-colour:navy)[Cole: A staff of heart? Really dude?]
 (text-colour:purple)[Remy: :(]
 (text-colour:yellow)[Acer: Aww, come on Cole. That wasn&#39;t very nice.]
-(text-colour:blue)[Cole: You are right, I am sorry.]
-[[ ===&gt;-&gt;Talk 1 part 2]]</tw-passagedata><tw-passagedata pid="104" name="Talk 1 part 2" tags="" position="2350,152.66666666666669" size="100,100">(text-colour:yellow)[Acer: So anyway, according to the Narrator, we have to work together.]
+(text-colour:navy)[Cole: You are right, I am sorry.]
+[[ ===&gt;-&gt;Talk 1 part 2]]</tw-passagedata><tw-passagedata pid="104" name="Talk 1 part 2" tags="" position="2350,150.33333333333334" size="100,100">(text-colour:yellow)[Acer: So anyway, according to the Narrator, we have to work together.]
 Cole sighs.
-(text-colour:blue)[Cole: The Narrator. She is so annoying.]
+(text-colour:navy)[Cole: The Narrator. She is so annoying.]
 (text-colour:purple)[Remy: Annoying? I like her.]
-(text-colour:blue)[Cole: Really?]
+(text-colour:navy)[Cole: Really?]
 (text-colour:yellow)[Acer: Really?]
 (text-colour:purple)[Remy: Yeah.....?]
-(text-colour:blue)[Cole: Whatever. I am down for working together.]
-(text-colour:blue)[Cole: We can help each other with puzzles and stuff.]
+(text-colour:navy)[Cole: Whatever. I am down for working together.]
+(text-colour:navy)[Cole: We can help each other with puzzles and stuff.]
 &quot;It&#39;s more than that.&quot;
 (text-colour:yellow)[Acer: Aaaah!]
-(text-colour:blue)[Cole: What do you mean by &#39;more than that&#39;?]
+(text-colour:navy)[Cole: What do you mean by &#39;more than that&#39;?]
 &quot;In order to continue certain puzzles, you will need another member to complete a puzzle in their world.
 &quot;You can also meet in person, but I digress.&quot;
-[[===&gt;-&gt;Talk 1 part 3]]</tw-passagedata><tw-passagedata pid="105" name="Talk template" tags="" position="426,633" size="100,100">(text-colour:yellow)[Acer: ]
+[[===&gt;-&gt;Talk 1 part 3]]</tw-passagedata><tw-passagedata pid="105" name="Talk template" tags="" position="444.3333333333333,624.6666666666666" size="100,100">(text-colour:yellow)[Acer: ]
 (text-colour:purple)[Remy: ]
 
 
-(text-colour:blue)[Cole: ]
+(text-colour:navy)[Cole: ]
 
 
 
 (text-colour:magenta)[Skye: ]</tw-passagedata><tw-passagedata pid="106" name="Talk 1 part 3" tags="" position="2345,311" size="100,100">(text-colour:purple)[Remy: Interesting! I am in, it sounds fun!]
-(text-colour:blue)[Cole: Of course you are. That said, I do appreciate the help.]
+(text-colour:navy)[Cole: Of course you are. That said, I do appreciate the help.]
 (text-colour:yellow)[Acer: Yea... ]
 (text-colour:yellow)[Acer: So, on that note...]
 [[===&gt;-&gt;Talk 1 part 4]]</tw-passagedata><tw-passagedata pid="107" name="Talk 1 part 4" tags="" position="2342,449" size="100,100">(text-colour:yellow)[Acer: Have any good tips?]
 [[===&gt;-&gt;Talk 1 part 5]]</tw-passagedata><tw-passagedata pid="108" name="Talk 1 part 5" tags="" position="2342,579" size="100,100">(text-colour:purple)[Remy: No tips as such but I have been running into issues.]
 (text-colour:yellow)[Acer: Like?]
 (text-colour:purple)[Remy: I am having trouble with the athletic components of the rooms.]
-(text-colour:blue)[Cole: Athletic components?]
-(text-colour:blue)[Cole: Can you elaborate?]
+(text-colour:navy)[Cole: Athletic components?]
+(text-colour:navy)[Cole: Can you elaborate?]
 (text-colour:purple)[Remy: Sure]
-[[===&gt;-&gt;Talk 1 part 6]]</tw-passagedata><tw-passagedata pid="109" name="Talk 1 part 6" tags="" position="2340.3333333333335,729" size="100,100">(text-colour:purple)[Remy: It&#39;s hard to jump on top of things in a dress.]
-(text-colour:blue)[Cole: ...]
-(text-colour:blue)[Cole: A dress? Really dude?]
+[[===&gt;-&gt;Talk 1 part 6]]</tw-passagedata><tw-passagedata pid="109" name="Talk 1 part 6" tags="" position="2340,729" size="100,100">(text-colour:purple)[Remy: It&#39;s hard to jump on top of things in a dress.]
+(text-colour:navy)[Cole: ...]
+(text-colour:navy)[Cole: A dress? Really dude?]
 (text-colour:purple)[Remy: :(]
 (text-colour:purple)[Remy: Yes, I wear a maxi dress.]
-(text-colour:blue)[Cole: Why?]
+(text-colour:navy)[Cole: Why?]
 (text-colour:purple)[Remy: Uh...]
 [[===&gt;-&gt;Talk 1 part 7]]</tw-passagedata><tw-passagedata pid="110" name="Talk 1 part 7" tags="" position="2342,879" size="100,100">(text-colour:purple)[Remy: Because it looks awesome?]
 Cole laughs.
-(text-colour:blue)[Cole: Whatever floats your boat dude.]
+(text-colour:navy)[Cole: Whatever floats your boat dude.]
 (text-colour:yellow)[Acer: ...]
-(text-colour:blue)[Cole: ...]
+(text-colour:navy)[Cole: ...]
 (text-colour:yellow)[Acer: I think it is a cool idea.]
-(text-colour:blue)[Cole: Sure you do.]
-(text-colour:blue)[Cole: Women...]
+(text-colour:navy)[Cole: Sure you do.]
+(text-colour:navy)[Cole: Women...]
 [[===&gt;-&gt;Talk 1 part 8]]</tw-passagedata><tw-passagedata pid="111" name="Talk 1 part 8" tags="" position="2342,1029" size="100,100">(text-colour:yellow)[Acer: Uh...]
 (text-colour:yellow)[Acer: ...]
 (text-colour:yellow)[Acer: Sure...]
 (text-colour:yellow)[Acer: ...]
 Acer suppresses the urge to cry.
 (text-colour:yellow)[Acer: Yea...]
-(text-colour:blue)[Cole: What? What did I say?]
+(text-colour:navy)[Cole: What? What did I say?]
 (text-colour:yellow)[Acer: ...]
 (text-colour:yellow)[Acer: Anyways...]
-[[===&gt;-&gt;Talk 1 part 9]]</tw-passagedata><tw-passagedata pid="112" name="Talk 1 part 9" tags="" position="2481.666666666667,1025.6666666666667" size="100,100">(text-colour:yellow)[Acer: Have either of you two come across these stupid yellow light barriers?]
-(text-colour:blue)[Cole: No.]
+[[===&gt;-&gt;Talk 1 part 9]]</tw-passagedata><tw-passagedata pid="112" name="Talk 1 part 9" tags="" position="2481,1025" size="100,100">(text-colour:yellow)[Acer: Have either of you two come across these stupid yellow light barriers?]
+(text-colour:navy)[Cole: No.]
 (text-colour:purple)[Remy: No.]
 (text-colour:yellow)[Acer: Oh.]
 (text-colour:yellow)[Acer: They are really annoying. They form a stupid maze.]
 (text-colour:yellow)[Acer: Like, I can see through them so it isn&#39;t super difficult.]
 (text-colour:yellow)[Acer: I did try to walk into one.]
 (text-colour:purple)[Remy: What happened?]
-[[===&gt;-&gt;Talk 1 part 10]]</tw-passagedata><tw-passagedata pid="113" name="Talk 1 part 10" tags="" position="2476.666666666667,875.6666666666667" size="100,100">(text-colour:yellow)[Acer: Let&#39;s just say that the barriers are solid.]
+[[===&gt;-&gt;Talk 1 part 10]]</tw-passagedata><tw-passagedata pid="113" name="Talk 1 part 10" tags="" position="2476,875" size="100,100">(text-colour:yellow)[Acer: Let&#39;s just say that the barriers are solid.]
 (text-colour:purple)[Remy: Aww, did it hurt?]
 (text-colour:yellow)[Acer: ... Yea.]
-(text-colour:blue)[Cole: Note to self, don&#39;t run into yellow light barriers. Got it.]
+(text-colour:navy)[Cole: Note to self, don&#39;t run into yellow light barriers. Got it.]
 (text-colour:yellow)[Acer: What about you Cole?]
-[[===&gt;-&gt;Talk 1 part 11]]</tw-passagedata><tw-passagedata pid="114" name="Talk 1 part 11" tags="" position="2478.3333333333335,729" size="100,100">(text-colour:blue)[Cole: Oh, no trouble from me.]
-(text-colour:blue)[Cole: The only thing I can think of is the stealth puzzles.]
-(text-colour:blue)[Cole: If I step into the darkness, the lights flash back on, the door closes and enemies appear.]
+[[===&gt;-&gt;Talk 1 part 11]]</tw-passagedata><tw-passagedata pid="114" name="Talk 1 part 11" tags="" position="2478,729" size="100,100">(text-colour:navy)[Cole: Oh, no trouble from me.]
+(text-colour:navy)[Cole: The only thing I can think of is the stealth puzzles.]
+(text-colour:navy)[Cole: If I step into the darkness, the lights flash back on, the door closes and enemies appear.]
 (text-colour:yellow)[Acer: Like a video game?]
-(text-colour:blue)[Cole: Hrrm.]
-(text-colour:blue)[Cole: I guess so.]
-[[===&gt;-&gt;Talk 1 part 12]]</tw-passagedata><tw-passagedata pid="115" name="Talk 1 part 12" tags="" position="2475.0000000000005,582.3333333333334" size="100,100">(text-colour:yellow)[Acer: (whistle noise)]
+(text-colour:navy)[Cole: Hrrm.]
+(text-colour:navy)[Cole: I guess so.]
+[[===&gt;-&gt;Talk 1 part 12]]</tw-passagedata><tw-passagedata pid="115" name="Talk 1 part 12" tags="" position="2475,582" size="100,100">(text-colour:yellow)[Acer: (whistle noise)]
 (text-colour:purple)[Remy: What was that noise?]
 (text-colour:yellow)[Acer: Noise?]
-(text-colour:blue)[Cole: I heard it too.]
+(text-colour:navy)[Cole: I heard it too.]
 (text-colour:yellow)[Acer: Oh, was it this?]
 (text-colour:yellow)[Acer: (whistle noise)]
 (text-colour:purple)[Remy: Yeah.]
-[[===&gt;-&gt;Talk 1 part 13]]</tw-passagedata><tw-passagedata pid="116" name="Talk 1 part 13" tags="" position="2473.3333333333335,450.66666666666663" size="100,100">(text-colour:yellow)[Acer: I just shot an enemy with my bow.]
+[[===&gt;-&gt;Talk 1 part 13]]</tw-passagedata><tw-passagedata pid="116" name="Talk 1 part 13" tags="" position="2473,450" size="100,100">(text-colour:yellow)[Acer: I just shot an enemy with my bow.]
 (text-colour:yellow)[Acer: I guess the system picked that up, eh?]
 Remy nods.
 (text-colour:yellow)[Acer: So, did it?]
 Remy facepalms.
 (text-colour:purple)[Remy: I just nodded and I guess you couldn&#39;t hear me...]
 Cole laughs.
-(text-colour:blue)[Cole: Yes, exactly.]
-[[===&gt;-&gt;Talk 1 part 14]]</tw-passagedata><tw-passagedata pid="117" name="Talk 1 part 14" tags="" position="2481.666666666667,300.6666666666667" size="100,100">(text-colour:blue)[Cole: Anyway, I think Miss Acer is preoccupied.]
-(text-colour:blue)[Cole: Let&#39;s pick this up again later.]
+(text-colour:navy)[Cole: Yes, exactly.]
+[[===&gt;-&gt;Talk 1 part 14]]</tw-passagedata><tw-passagedata pid="117" name="Talk 1 part 14" tags="" position="2481,300" size="100,100">(text-colour:navy)[Cole: Anyway, I think Miss Acer is preoccupied.]
+(text-colour:navy)[Cole: Let&#39;s pick this up again later.]
 (text-colour:yellow)[Acer: ...]
 (text-colour:yellow)[Acer: Sure...] (set: $acer_story_2 to false) (set: $cole_story_2 to false)
-[[===&gt;-&gt;Character Select 2]]</tw-passagedata><tw-passagedata pid="118" name="Character Select 2" tags="" position="2658.3333333333335,300.66666666666663" size="100,100">Here you can choose to follow each of our three Characters.
+[[===&gt;-&gt;Character Select 2]]</tw-passagedata><tw-passagedata pid="118" name="Character Select 2" tags="" position="2658,300" size="100,100">Here you can choose to follow each of our three Characters.
 (if:$acer_story_2 is false)[[[Let&#39;s see what Acer is up to-&gt;Acer Story 2]]] (if:$acer_story_2 is true)[You have already followed Acer. Their story was touching, right?]
 For some reason, you cannot follow Remy. Weird.
 (if:$cole_story_2 is false)[[[Let&#39;s see what Cole is up to-&gt;Cole Story 2]]] (if:$cole_story_2 is true)[You have already followed Cole. Those light barriers, eh?]
-(more:)[[[Well, that was interesting.-&gt;Next]]]</tw-passagedata><tw-passagedata pid="119" name="Acer Story 2" tags="" position="2828.3333333333335,305.66666666666663" size="100,100">Acer has gotten very good with their bow.
+(more:)[[[Well, that was interesting.-&gt;Narrator 1]]]</tw-passagedata><tw-passagedata pid="119" name="Acer Story 2" tags="" position="2828,305" size="100,100">Acer has gotten very good with their bow.
 They fire their bow and the arrow directly hits the naga they were aiming at.
 A (text-colour:purple)[purple] button appeares on the pedestal in the middle of the room, approximately where the naga used to be.
 More puzzles, Acer thinks.
 The button is a different colour though. Weird.
-[[Push the purple button-&gt;Acer Story 2 button]]</tw-passagedata><tw-passagedata pid="120" name="Cole Story 2" tags="" position="2828.3333333333335,160.66666666666666" size="100,100">Cole leaps through the air, daggers in hand.
+[[Push the purple button-&gt;Acer Story 2 button]]</tw-passagedata><tw-passagedata pid="120" name="Cole Story 2" tags="" position="2828,160" size="100,100">Cole leaps through the air, daggers in hand.
 Slash, Slash.
 The wolves fall to the ground, dead.
 Cole was getting better with his daggers, although he still needed some practice.
-[[===&gt;-&gt;Cole Story 2 button 1]]</tw-passagedata><tw-passagedata pid="121" name="Next" tags="" position="2659.9999999999995,457.3333333333333" size="100,100">Tune in next time when I write the rest of the story :)</tw-passagedata><tw-passagedata pid="122" name="Acer Story 2 button" tags="" position="2983.3333333333335,305.66666666666663" size="100,100">Without hesitation, Acer hits the (text-colour:purple)[purple] button.
+[[===&gt;-&gt;Cole Story 2 button 1]]</tw-passagedata><tw-passagedata pid="121" name="Narrator 1" tags="" position="2665.6666666666665,445.3333333333333" size="100,100">The Narrator would like to talk.
+She has some things to say.
+[[Talk to the Narrator-&gt;Narrator 2]]</tw-passagedata><tw-passagedata pid="122" name="Acer Story 2 button" tags="" position="2983,305" size="100,100">Without hesitation, Acer hits the (text-colour:purple)[purple] button.
 A (text-colour:purple)[purple] portal appears on the far wall.
 &quot;Purple,&quot; Acer muses to themselves. &quot;Why purple?&quot;
 It occurs to the reader that maybe the chat logs are not colour coded in Acer&#39;s (text-colour:yellow)[yellow] headset.
 Weird.
-[[Enter the portal-&gt;Acer Story 2 portal]]</tw-passagedata><tw-passagedata pid="123" name="Acer Story 2 portal" tags="" position="3133.3333333333335,310.66666666666623" size="100,100">Acer confidently walks into the portal.
+[[Enter the portal-&gt;Acer Story 2 portal]]</tw-passagedata><tw-passagedata pid="123" name="Acer Story 2 portal" tags="" position="3133,310" size="100,100">Acer confidently walks into the portal.
 It occurs to Acer, after they had walked into the portal, that maybe this isn&#39;t the best idea.
 Oh well, decisions were made.
-[[See what is on the other side of the portal-&gt;Acer Story 2 Remy meet]]</tw-passagedata><tw-passagedata pid="124" name="Acer Story 2 Remy meet" tags="" position="3271.6666666666665,308.9999999999999" size="100,100">A person in a (text-colour:purple)[purple] dress who was wearing (text-colour:purple)[purple] ribbons in their pigtails stood in front of Acer.
+[[See what is on the other side of the portal-&gt;Acer Story 2 Remy meet]]</tw-passagedata><tw-passagedata pid="124" name="Acer Story 2 Remy meet" tags="" position="3271,308" size="100,100">A person in a (text-colour:purple)[purple] dress who was wearing (text-colour:purple)[purple] ribbons in their pigtails stood in front of Acer.
 Acer stared at the person for a minute.
 The person gestures to the their own headband.
 Acer looks confused.
 The person points away.
-[[Put away your headset-&gt;Acer Story 2 Remy meet 2]]</tw-passagedata><tw-passagedata pid="125" name="Acer Story 2 Remy meet 2" tags="" position="3413.3333333333335,307.3333333333332" size="100,100">Acer puts away their headset.
+[[Put away your headset-&gt;Acer Story 2 Remy meet 2]]</tw-passagedata><tw-passagedata pid="125" name="Acer Story 2 Remy meet 2" tags="" position="3413,307" size="100,100">Acer puts away their headset.
 It seems like this person doesn&#39;t want to be overheard by their group for some reason.
 Weird.
-[[===&gt;-&gt;Acer Story 2 Remy meet 3]]</tw-passagedata><tw-passagedata pid="126" name="Acer Story 2 Remy meet 3" tags="" position="3550,310.6666666666665" size="100,100">The person raises their arms in the air.
+[[===&gt;-&gt;Acer Story 2 Remy meet 3]]</tw-passagedata><tw-passagedata pid="126" name="Acer Story 2 Remy meet 3" tags="" position="3550,310" size="100,100">The person raises their arms in the air.
 It looks to Acer like an invitation to have a hug.
 Fine, Acer thinks.
-[[Hug the strange person-&gt;Acer Story 2 Remy meet 4]]</tw-passagedata><tw-passagedata pid="127" name="Acer Story 2 Remy meet 4" tags="" position="3551.6666666666665,460.6666666666665" size="100,100">Acer walks into the hug.
+[[Hug the strange person-&gt;Acer Story 2 Remy meet 4]]</tw-passagedata><tw-passagedata pid="127" name="Acer Story 2 Remy meet 4" tags="" position="3551,460" size="100,100">Acer walks into the hug.
 So soothing.
 Acer has missed human interaction.
 They guess that this person will do.
 (text-colour:purple)[Remy: I am Remy by the way.]
 (text-colour:purple)[Remy: I don&#39;t know if that was clear.]
-[[Hug Remy tighter-&gt;Acer Story 2 Remy meet 5]]</tw-passagedata><tw-passagedata pid="128" name="Acer Story 2 Remy meet 5" tags="" position="3555,607.3333333333331" size="100,100">Squeeze!
-[[De-hug-&gt;Acer Story 2 Remy meet 6]]</tw-passagedata><tw-passagedata pid="129" name="Acer Story 2 Remy meet 6" tags="" position="3406.6666666666665,595.6666666666665" size="100,100">(text-colour:purple)[Remy: Are you ok, Acer?]
+[[Hug Remy tighter-&gt;Acer Story 2 Remy meet 5]]</tw-passagedata><tw-passagedata pid="128" name="Acer Story 2 Remy meet 5" tags="" position="3555,607" size="100,100">Squeeze!
+[[De-hug-&gt;Acer Story 2 Remy meet 6]]</tw-passagedata><tw-passagedata pid="129" name="Acer Story 2 Remy meet 6" tags="" position="3406,595" size="100,100">(text-colour:purple)[Remy: Are you ok, Acer?]
 (text-colour:yellow)[Acer: How did you know I was Acer?]
 Remy raises an eyebrow.
 (text-colour:purple)[Remy: The cute person with a yellow costume and a bow?]
 Acer blushes.
 (text-colour:purple)[Remy: That has to be Acer.]
 (text-colour:yellow)[Acer: Guilty as charged.]
-[[==&gt;-&gt;Acer Story 2 Remy meet 7]]</tw-passagedata><tw-passagedata pid="130" name="Acer Story 2 Remy meet 7" tags="" position="3408.333333333333,455.66666666666634" size="100,100">(text-colour:purple)[Remy: So, I have a question I need to ask you.]
+[[==&gt;-&gt;Acer Story 2 Remy meet 7]]</tw-passagedata><tw-passagedata pid="130" name="Acer Story 2 Remy meet 7" tags="" position="3408,455" size="100,100">(text-colour:purple)[Remy: So, I have a question I need to ask you.]
 Acer looks uncomfortable.
 (text-colour:purple)[Remy: Oh, nothing like that.]
 Remy sighs.
 (text-colour:purple)[Remy: So...]
-[[===&gt;-&gt;Acer Story 2 Remy meet 8]]</tw-passagedata><tw-passagedata pid="131" name="Acer Story 2 Remy meet 8" tags="" position="3268.3333333333326,460.66666666666634" size="100,100">(text-colour:purple)[Remy: What are your pronouns?]
+[[===&gt;-&gt;Acer Story 2 Remy meet 8]]</tw-passagedata><tw-passagedata pid="131" name="Acer Story 2 Remy meet 8" tags="" position="3268,460" size="100,100">(text-colour:purple)[Remy: What are your pronouns?]
 Acer looks hesitant to answer the question.
-[[...-&gt;Acer Story 2 Remy meet 9]]</tw-passagedata><tw-passagedata pid="132" name="Acer Story 2 Remy meet 9" tags="" position="3269.9999999999995,592.333333333333" size="100,100">(text-colour:yellow)[Acer: They/Them.]
-[[===&gt;-&gt;Acer Story 2 Remy meet 10]]</tw-passagedata><tw-passagedata pid="133" name="Acer Story 2 Remy meet 10" tags="" position="3134.9999999999995,588.9999999999997" size="100,100">Remy smiles.
+[[...-&gt;Acer Story 2 Remy meet 9]]</tw-passagedata><tw-passagedata pid="132" name="Acer Story 2 Remy meet 9" tags="" position="3269,592" size="100,100">(text-colour:yellow)[Acer: They/Them.]
+[[===&gt;-&gt;Acer Story 2 Remy meet 10]]</tw-passagedata><tw-passagedata pid="133" name="Acer Story 2 Remy meet 10" tags="" position="3134,588" size="100,100">Remy smiles.
 (text-colour:purple)[Remy: Well, that explains your reaction to Cole&#39;s insensitivity.]
 Acer looks at Remy with a weird look.
 Remy laughs.
@@ -575,7 +577,7 @@ Remy laughs.
 (text-colour:purple)[Remy: Ok, maybe if Cole isn&#39;t listening in.]
 Acer looks happy.
 (text-colour:purple)[Remy: Look, I understand.]
-[[===&gt;-&gt;Acer Story 2 Remy meet 11]]</tw-passagedata><tw-passagedata pid="134" name="Acer Story 2 Remy meet 11" tags="" position="3133.3333333333326,462.3333333333329" size="100,100">(text-colour:purple)[Remy: I wear women&#39;s dresses after all.]
+[[===&gt;-&gt;Acer Story 2 Remy meet 11]]</tw-passagedata><tw-passagedata pid="134" name="Acer Story 2 Remy meet 11" tags="" position="3133,462" size="100,100">(text-colour:purple)[Remy: I wear women&#39;s dresses after all.]
 (text-colour:purple)[Remy: Seriously, who does Cole think he is?]
 (text-colour:purple)[Remy: Stupid, insensitive, Cole.]
 Acer starts laughing.
@@ -585,7 +587,7 @@ Remy is adorable and Acer is glad to have an ally that understands.
 (text-colour:yellow)[Acer: You have no idea how much it means to me that you understand.]
 (text-colour:purple)[Remy: Do you need another hug?]
 Acer nods.
-[[Take another hug-&gt;Acer Story 2 Remy meet 12]]</tw-passagedata><tw-passagedata pid="135" name="Acer Story 2 Remy meet 12" tags="" position="2981.666666666665,453.9999999999995" size="100,100">Acer sniffs.
+[[Take another hug-&gt;Acer Story 2 Remy meet 12]]</tw-passagedata><tw-passagedata pid="135" name="Acer Story 2 Remy meet 12" tags="" position="2981,453" size="100,100">Acer sniffs.
 (text-colour:yellow)[Acer: Seriously, thanks.]
 (text-colour:purple)[Remy: You are completely welcome.]
 (text-colour:purple)[Remy: You just be yourself.]
@@ -593,7 +595,7 @@ Acer nods.
 (text-colour:yellow)[Acer: Right?]
 Acer wipes their eyes.
 (text-colour:purple)[Remy: And with that tension deflated...]
-[[===&gt;-&gt;Acer Story 2 Remy meet 13]]</tw-passagedata><tw-passagedata pid="136" name="Acer Story 2 Remy meet 13" tags="" position="2979.999999999999,588.9999999999994" size="100,100">(text-colour:purple)[Remy: Do you know where I could find a badass archer?]
+[[===&gt;-&gt;Acer Story 2 Remy meet 13]]</tw-passagedata><tw-passagedata pid="136" name="Acer Story 2 Remy meet 13" tags="" position="2979,588" size="100,100">(text-colour:purple)[Remy: Do you know where I could find a badass archer?]
 (text-colour:purple)[Remy: I think I ran into a puzzle that requires someone who is good with a bow.]
 Acer raises their hand in the air.
 (text-colour:yellow)[Acer: Oooh, pick me. pick me.]
@@ -601,99 +603,239 @@ Acer raises their hand in the air.
 Remy smiles.
 Acer jumps in the air.
 (text-colour:yellow)[Acer: No, me! I am a badass archer.]
-[[===&gt;-&gt;Acer Story 2 Remy meet 14]]</tw-passagedata><tw-passagedata pid="137" name="Acer Story 2 Remy meet 14" tags="" position="2821.6666666666656,445.6666666666662" size="100,100">(text-colour:purple)[Remy: Hrrrm. I guess I will take this crying archer.]
+[[===&gt;-&gt;Acer Story 2 Remy meet 14]]</tw-passagedata><tw-passagedata pid="137" name="Acer Story 2 Remy meet 14" tags="" position="2821,445" size="100,100">(text-colour:purple)[Remy: Hrrrm. I guess I will take this crying archer.]
 (text-colour:purple)[Remy: Maybe they will grow on me?]
 Acer smiles again.
 They are glad Remy is a nice person.
 Acer wonders what caused Remy to be so nice? (set: $acer_story_2 to true)
-[[===&gt;-&gt;Character Select 2]]</tw-passagedata><tw-passagedata pid="138" name="Cole Story 2 button 1" tags="" position="2975,162.33333333333283" size="100,100">Cole wasn&#39;t sure where to go next.
+[[===&gt;-&gt;Character Select 2]]</tw-passagedata><tw-passagedata pid="138" name="Cole Story 2 button 1" tags="" position="2975,162" size="100,100">Cole wasn&#39;t sure where to go next.
 He had exhausted the options he could get to.
 The rest of the passages seemed impossible for him to get to.
 A (text-colour:yellow)[yellow] button appeared in the center of the room he was in.
 Great, another button. Weird colour though.
-[[Push the yellow button-&gt;Cole Story 2 button 2]]</tw-passagedata><tw-passagedata pid="139" name="Cole Story 2 button 2" tags="" position="3128.333333333333,155.66666666666623" size="100,100">Cole, having pushed many buttons by this point, pushes the (text-colour:yellow)[yellow] button.
+[[Push the yellow button-&gt;Cole Story 2 button 2]]</tw-passagedata><tw-passagedata pid="139" name="Cole Story 2 button 2" tags="" position="3128,155" size="100,100">Cole, having pushed many buttons by this point, pushes the (text-colour:yellow)[yellow] button.
 A (text-colour:yellow)[yellow] portal appears on the far wall.
-(text-colour:blue)[Cole: Well, that is new.]
-(text-colour:blue)[Cole: I wonder where that leads?]
-[[See what is on the other side of the portal-&gt;Cole Story 2 Acer world 1]]</tw-passagedata><tw-passagedata pid="140" name="Cole Story 2 Acer world 1" tags="" position="3268.333333333333,162.3333333333328" size="100,100">Cole walks through the (text-colour:yellow)[yellow] portal.
+(text-colour:navy)[Cole: Well, that is new.]
+(text-colour:navy)[Cole: I wonder where that leads?]
+[[See what is on the other side of the portal-&gt;Cole Story 2 Acer world 1]]</tw-passagedata><tw-passagedata pid="140" name="Cole Story 2 Acer world 1" tags="" position="3268,162" size="100,100">Cole walks through the (text-colour:yellow)[yellow] portal.
 He enteres an empty room.
-He expected the room to follow a (text-colour:blue)[blue] colour scheme.
+He expected the room to follow a (text-colour:navy)[blue] colour scheme.
 Instead, it followed a (text-colour:yellow)[yellow] colour scheme.
 Weird.
-[[Look around the room-&gt;Cole Story 2 Acer world 2]]</tw-passagedata><tw-passagedata pid="141" name="Cole Story 2 Acer world 2" tags="" position="3405,162.3333333333328" size="100,100">Cole notices the (text-colour:yellow)[yellow] portal disappear.
+[[Look around the room-&gt;Cole Story 2 Acer world 2]]</tw-passagedata><tw-passagedata pid="141" name="Cole Story 2 Acer world 2" tags="" position="3405,162" size="100,100">Cole notices the (text-colour:yellow)[yellow] portal disappear.
 He swears under his breath.
 Oh well, nothing he can do about that now.
 In addition to this room being (text-colour:yellow)[yellow], there are also flowers everywhere.
 Where is he?
 There is a door on the other side of the room.
-[[Exit this room-&gt;Cole Story 2 Acer world 3]]</tw-passagedata><tw-passagedata pid="142" name="Cole Story 2 Acer world 3" tags="" position="3546.6666666666665,160.66666666666615" size="100,100">Cole enters the adjacent room.
+[[Exit this room-&gt;Cole Story 2 Acer world 3]]</tw-passagedata><tw-passagedata pid="142" name="Cole Story 2 Acer world 3" tags="" position="3541,185" size="100,100">Cole enters the adjacent room.
 There is a (text-colour:yellow)[yellow] light barrier stretching from the walls.
 Great.
-(text-colour:blue)[Cole: Acer, I think I found your yellow light barriers.]
-(text-colour:blue)[Cole: You said that they are impassible, right?]
+(text-colour:navy)[Cole: Acer, I think I found your yellow light barriers.]
+(text-colour:navy)[Cole: You said that they are impassible, right?]
 Cole waits for a reply.
-(text-colour:blue)[Cole: Acer?]
+(text-colour:navy)[Cole: Acer?]
 No reply.
-(text-colour:blue)[Cole: Remy?]
+(text-colour:navy)[Cole: Remy?]
 No reply.
-(text-colour:blue)[Cole: Is this thing working?]
-(text-colour:blue)[Cole: I guess I should try to solve this puzzle myself.]
-[[===&gt;-&gt;Cole Story 2 light barrier decision]]</tw-passagedata><tw-passagedata pid="143" name="Cole Story 2 light barriers maze 1" tags="" position="3813.333333333333,18.99999999999949" size="100,100">Cole walks from wall to wall of the room, careful not to touch the (text-colour:yellow)[yellow] light barriers.
+(text-colour:navy)[Cole: Is this thing working?]
+(text-colour:navy)[Cole: I guess I should try to solve this puzzle myself.]
+[[===&gt;-&gt;Cole Story 2 light barrier decision]]</tw-passagedata><tw-passagedata pid="143" name="Cole Story 2 light barriers maze 1" tags="" position="3819.666666666667,251.33333333333331" size="100,100">Cole walks from wall to wall of the room, careful not to touch the (text-colour:yellow)[yellow] light barriers.
 There doesn&#39;t seem to be a way through the maze.
 Maybe he should check slightly harder?
-[[Check harder-&gt;Cole Story 2 light barriers maze 2]]</tw-passagedata><tw-passagedata pid="144" name="Cole Story 2 light barrier decision" tags="" position="3545,20.666666666666117" size="100,100">What should Cole do?
+[[Check harder-&gt;Cole Story 2 light barriers maze 2]]</tw-passagedata><tw-passagedata pid="144" name="Cole Story 2 light barrier decision" tags="" position="3681.666666666667,186.66666666666666" size="100,100">What should Cole do?
 [[Try to find a way through the maze-&gt;Cole Story 2 light barriers maze 1]]
 [[Slash at the light barrier-&gt;Cole Story 2 light barrier slash]]
-[[Run at the light barrier with wild abandon-&gt;Cole Story 2 light barrier run 1]]</tw-passagedata><tw-passagedata pid="145" name="Cole Story 2 light barriers maze 2" tags="" position="3818.333333333333,152.33333333333283" size="100,100">Cole checks harder.
+[[Run at the light barrier with wild abandon-&gt;Cole Story 2 light barrier run 1]]</tw-passagedata><tw-passagedata pid="145" name="Cole Story 2 light barriers maze 2" tags="" position="3804.666666666667,383.66666666666674" size="100,100">Cole checks harder.
 No, no way through the (text-colour:yellow)[yellow] light barrier.
 Hrrrm.
-[[===&gt;-&gt;Cole Story 2 light barrier decision]]</tw-passagedata><tw-passagedata pid="146" name="Cole Story 2 light barrier slash" tags="" position="3690,165.66666666666612" size="100,100">Cole decides to slash at the (text-colour:yellow)[yellow] light barrier with his daggers.
+[[===&gt;-&gt;Cole Story 2 light barrier decision]]</tw-passagedata><tw-passagedata pid="146" name="Cole Story 2 light barrier slash" tags="" position="3683.3333333333335,323.33333333333337" size="100,100">Cole decides to slash at the (text-colour:yellow)[yellow] light barrier with his daggers.
 He is very careful to not touch the (text-colour:yellow)[yellow] light barrier himself.
 The daggers go through, meeting no resistance.
 Great.
-[[===&gt;-&gt;Cole Story 2 light barrier decision]]</tw-passagedata><tw-passagedata pid="147" name="Cole Story 2 light barrier run 1" tags="" position="3391.666666666667,18.99999999999943" size="100,100">Sure, that sounds like a good idea.
+[[===&gt;-&gt;Cole Story 2 light barrier decision]]</tw-passagedata><tw-passagedata pid="147" name="Cole Story 2 light barrier run 1" tags="" position="3412.666666666667,29.66666666666667" size="100,100">Sure, that sounds like a good idea.
 Are you sure you want to run at the light barrier with wild abandon?
-[[No?-&gt;Cole Story 2 light barrier decision]]
-[[No-&gt;Cole Story 2 light barrier decision]]
-[[Maybe? But it sounds a bit dangerous-&gt;Cole Story 2 light barrier decision]]
-[[Yes, what could go wrong?-&gt;Cole Story 2 light barrier run 2]]</tw-passagedata><tw-passagedata pid="148" name="Cole Story 2 light barrier run 2" tags="" position="3263.3333333333335,25.66666666666614" size="100,100">Cole steps away from the (text-colour:yellow)[yellow] light barrier.
+[[No?-&gt;Cole Story 2 light barrier no 1]]
+[[No-&gt;Cole Story 2 light barrier no 2]]
+[[Maybe? But it sounds a bit dangerous-&gt;Cole Story 2 light barrier no 3]]
+[[Yes, what could go wrong?-&gt;Cole Story 2 light barrier run 2]]</tw-passagedata><tw-passagedata pid="148" name="Cole Story 2 light barrier run 2" tags="" position="3263,25" size="100,100">Cole steps away from the (text-colour:yellow)[yellow] light barrier.
 He psyches himself up.
 Acer said that the barriers were impassible.
 She knew what she was talking about, right?
 Right?
-[[===&gt;-&gt;Cole Story 2 light barrier run 3]]</tw-passagedata><tw-passagedata pid="149" name="Cole Story 2 light barrier run 3" tags="" position="3120,22.333333333332813" size="100,100">Cole starts his run.
+[[===&gt;-&gt;Cole Story 2 light barrier run 3]]</tw-passagedata><tw-passagedata pid="149" name="Cole Story 2 light barrier run 3" tags="" position="3120,22" size="100,100">Cole starts his run.
 Here goes nothing.
-[[===&gt;-&gt;Cole Story 2 light barrier run 4]]</tw-passagedata><tw-passagedata pid="150" name="Cole Story 2 light barrier run 4" tags="" position="2963.3333333333335,23.999999999999545" size="100,100">...
-[[===&gt;-&gt;Cole Story 2 light barrier run 5]]</tw-passagedata><tw-passagedata pid="151" name="Cole Story 2 light barrier run 5" tags="" position="2825,22.333333333332803" size="100,100">Cole passes through the (text-colour:yellow)[yellow] light barrier, as though it wasn&#39;t there.
+[[===&gt;-&gt;Cole Story 2 light barrier run 4]]</tw-passagedata><tw-passagedata pid="150" name="Cole Story 2 light barrier run 4" tags="" position="2963,23" size="100,100">...
+[[===&gt;-&gt;Cole Story 2 light barrier run 5]]</tw-passagedata><tw-passagedata pid="151" name="Cole Story 2 light barrier run 5" tags="" position="2825,22" size="100,100">Cole passes through the (text-colour:yellow)[yellow] light barrier, as though it wasn&#39;t there.
 He stumbles as he is caught off guard.
 He expected the (text-colour:yellow)[yellow] light barrier to stop him.
 He was trying to smash it.
 It let him through?
 What?
-[[===&gt;-&gt;Cole Story 2 light barrier run 6]]</tw-passagedata><tw-passagedata pid="152" name="Cole Story 2 light barrier run 6" tags="" position="2668.3333333333335,32.333333333333286" size="100,100">Cole hears giggling from the annoying Narrator.
-(text-colour:blue)[Cole: What is it now?]
+[[===&gt;-&gt;Cole Story 2 light barrier run 6]]</tw-passagedata><tw-passagedata pid="152" name="Cole Story 2 light barrier run 6" tags="" position="2668,32" size="100,100">Cole hears giggling from the annoying Narrator.
+(text-colour:navy)[Cole: What is it now?]
 &quot;Oh, nothing.&quot;
 &quot;You just looked silly trying to run into a totally impassible wall.&quot;
 &quot;Maybe you should talk to Acer about it?&quot;
-(text-colour:blue)[Cole: Good idea.]
-[[Talk to Acer-&gt;Cole Story 2 Acer talk 1]]</tw-passagedata><tw-passagedata pid="153" name="Cole Story 2 Acer talk 1" tags="" position="2510.0000000000005,40.666666666666615" size="100,100">(text-colour:blue)[Cole: Hey Acer, are you there?]
+(text-colour:navy)[Cole: Good idea.]
+[[Talk to Acer-&gt;Cole Story 2 Acer talk 1]]</tw-passagedata><tw-passagedata pid="153" name="Cole Story 2 Acer talk 1" tags="" position="2510,40" size="100,100">(text-colour:navy)[Cole: Hey Acer, are you there?]
 (text-colour:yellow)[Acer: Uh, yea.]
-(text-colour:blue)[Cole: Oh, good, I thought that the system wasn&#39;t working.]
+(text-colour:navy)[Cole: Oh, good, I thought that the system wasn&#39;t working.]
 (text-colour:yellow)[Acer: Oh, uh... don&#39;t worry about that.]
 (text-colour:yellow)[Acer: What&#39;s up?]
-[[===&gt;-&gt;Cole Story 2 Acer talk 2]]</tw-passagedata><tw-passagedata pid="154" name="Cole Story 2 Acer talk 2" tags="" position="2501.666666666667,168.99999999999997" size="100,100">(text-colour:blue)[Cole: About your &quot;impassible&quot; yellow light barriers.]
+[[===&gt;-&gt;Cole Story 2 Acer talk 2]]</tw-passagedata><tw-passagedata pid="154" name="Cole Story 2 Acer talk 2" tags="" position="2501,168" size="100,100">(text-colour:navy)[Cole: About your &quot;impassible&quot; yellow light barriers.]
 (text-colour:yellow)[Acer: Yea, what about them?]
-(text-colour:blue)[Cole: I can pass through them.]
+(text-colour:navy)[Cole: I can pass through them.]
 (text-colour:yellow)[Acer: What?]
-(text-colour:blue)[Cole: I think I am in your world.]
+(text-colour:navy)[Cole: I think I am in your world.]
 Acer gasps.
-[[===&gt;-&gt;Cole Story 2 Acer talk 3]]</tw-passagedata><tw-passagedata pid="155" name="Cole Story 2 Acer talk 3" tags="" position="2660,162.3333333333333" size="100,100">(text-colour:blue)[Cole: Yea, I know. Weird right?]
+[[===&gt;-&gt;Cole Story 2 Acer talk 3]]</tw-passagedata><tw-passagedata pid="155" name="Cole Story 2 Acer talk 3" tags="" position="2660,162" size="100,100">(text-colour:navy)[Cole: Yea, I know. Weird right?]
 (text-colour:yellow)[Acer: Yea, bizarre!]
-(text-colour:blue)[Cole: Anyway, I was in a room which required me to pass through one of the barriers.]
-(text-colour:blue)[Cole: And I could.]
+(text-colour:navy)[Cole: Anyway, I was in a room which required me to pass through one of the barriers.]
+(text-colour:navy)[Cole: And I could.]
 (text-colour:yellow)[Acer: Oh, that&#39;s awesome!]
-(text-colour:blue)[Cole: So, are there any puzzles I can solve in your world?] (set: $cole_story_2 to true)
-[[===&gt;-&gt;Character Select 2]]</tw-passagedata></tw-storydata>
+(text-colour:navy)[Cole: So, are there any puzzles I can solve in your world?] (set: $cole_story_2 to true)
+[[===&gt;-&gt;Character Select 2]]</tw-passagedata><tw-passagedata pid="156" name="Cole Story 2 light barrier no 1" tags="" position="3578.333333333333,8.333333333333321" size="100,100">Fair Enough.
+[[===&gt;-&gt;Cole Story 2 light barrier decision]]</tw-passagedata><tw-passagedata pid="157" name="Cole Story 2 light barrier no 2" tags="" position="3820.9999999999995,124.66666666666664" size="100,100">Fair Enough.
+[[===&gt;-&gt;Cole Story 2 light barrier decision]]</tw-passagedata><tw-passagedata pid="158" name="Cole Story 2 light barrier no 3" tags="" position="3712.6666666666665,6.666666666666667" size="100,100">Fair Enough.
+[[===&gt;-&gt;Cole Story 2 light barrier decision]]</tw-passagedata><tw-passagedata pid="159" name="Ending" tags="" position="441.33333333333326,750.3333333333334" size="100,100">Tune in next time when I write the rest of the story :)</tw-passagedata><tw-passagedata pid="160" name="Narrator 2" tags="" position="2668.9999999999995,587" size="100,100">&quot;Hi!!!!!&quot;
+&quot;Having fun so far?&quot;
+&quot;That last scene with Acer was so sweet, right?&quot;
+&quot;Remy is a darling.&quot;
+&quot;So, would you like to know what is next?&quot;
+[[Yes!-&gt;Narrator 3]]</tw-passagedata><tw-passagedata pid="161" name="Narrator 3" tags="" position="2825.666666666666,585.3333333333333" size="100,100">&quot;Interesting...&quot;
+&quot;Well, unfortunately, the story cannot go into every detail.&quot;
+&quot;Shocker, I know.&quot;
+[[So... what is next?-&gt;Narrator 4]]</tw-passagedata><tw-passagedata pid="162" name="Narrator 4" tags="" position="2823.9999999999995,717" size="100,100">&quot;I don&#39;t know.&quot;
+&quot;None of the next few things (text-colour:yellow)[Acer], (text-color:purple)[Remy] and (text-colour:navy)[Cole] do are THAT interesting.&quot;
+&quot;Let&#39;s say that...&quot;
+&quot;They get better and solve some puzzles.&quot;
+[[Seriously? But I want to know more!-&gt;Narrator 5]]</tw-passagedata><tw-passagedata pid="163" name="Narrator 5" tags="" position="2664,717" size="100,100">&quot;Too bad.&quot;
+&quot;Let&#39;s skip to an interesting bit.&quot;
+&quot;Hrrm, let&#39;s see.&quot;
+&quot;What would be an interesting thing to see?&quot;
+(input-box:&quot;X&quot;,1,&quot;Type an interesting thing in here.&quot;)
+[[===&gt;-&gt;Narrator 6]]</tw-passagedata><tw-passagedata pid="164" name="Narrator 6" tags="" position="2664,865.3333333333334" size="100,100">&quot;Oh man, I agree!&quot;
+&quot;That would be interesting!&quot;
+[[===&gt;-&gt;Narrator 7]]</tw-passagedata><tw-passagedata pid="165" name="Narrator 7" tags="" position="2660.666666666667,1012" size="100,100">&quot;Too bad!&quot;
+&quot;Let&#39;s see...&quot;
+&quot;I guess we should go to some boss battles.&quot;
+&quot;That sounds fun!&quot;
+[[To the boss battles, I guess?-&gt;Acer boss Introduction]]</tw-passagedata><tw-passagedata pid="166" name="Acer boss Introduction" tags="" position="2824,1021.9999999999999" size="100,100">Acer is in a room with a ferocious dragon.
+(text-colour:yellow)[Acer: Why does it have to be a dragon?]
+There are four platforms in this room.
+Acer thinks that they can jump to a platform and shoot the dragon.
+If they guess the correct platform, they will avoid the dragons attacks.
+Good luck! (set: $acer_hits to 0) (set: $dragon_hits to 0) (set: $attacks to (a: 2,4,3,4,1,1,3,3,2,4)) (set: $turn to 1)
+[[===&gt;-&gt;Acer boss]]</tw-passagedata><tw-passagedata pid="167" name="Acer boss" tags="" position="2829,1171.9999999999998" size="100,100">The dragon looks angry.
+Acer sees something on the wall.
+They have no idea what it means.
+_ o | o o | o _ | o o | _ _ 
+_ _ | o _ | o _ | _ o | o o
+What will Acer do?
+[[Jump on the North platform and fire their bow-&gt;Acer boss attack 1]]
+[[Jump on the East platform and fire their bow-&gt;Acer boss attack 2]]
+[[Jump on the South platform and fire their bow-&gt;Acer boss attack 3]]
+[[Jump on the West platform and fire their bow-&gt;Acer boss attack 4]]</tw-passagedata><tw-passagedata pid="168" name="Acer boss attack 1" tags="" position="2594.0000000000005,1320.3333333333333" size="100,100">(if: $attacks&#39;s ($turn) is 1)[Acer guesses correctly and the dragon takes a hit.(set: $dragon_hits to $dragon_hits + 1)](else:)[Acer guesses incorrectly and takes a hit. (set: $acer_hits to $acer_hits + 1)] (set: $turn to $turn + 1)
+(if: $acer_hits &gt; 4)[Acer dies after taking too many hits. [[Try again?-&gt;Acer boss Introduction]]](else-if: $dragon_hits &gt; 4)[Acer is victorious! [[Continue-&gt;Acer boss win]]](else:)[[[Continue the fight-&gt;Acer boss]]]</tw-passagedata><tw-passagedata pid="169" name="Acer boss attack 2" tags="" position="2744.0000000000005,1305.333333333333" size="100,100">(if: $attacks&#39;s ($turn) is 1)[Acer guesses correctly and the dragon takes a hit.(set: $dragon_hits to $dragon_hits + 1)](else:)[Acer guesses incorrectly and takes a hit. (set: $acer_hits to $acer_hits + 1)] (set: $turn to $turn + 1)
+(if: $acer_hits &gt; 4)[Acer dies after taking too many hits. [[Try again?-&gt;Acer boss Introduction]]](else-if: $dragon_hits &gt; 4)[Acer is victorious! [[Continue-&gt;Acer boss win]]](else:)[[[Continue the fight-&gt;Acer boss]]]</tw-passagedata><tw-passagedata pid="170" name="Acer boss attack 3" tags="" position="2917.3333333333335,1305.333333333333" size="100,100">(if: $attacks&#39;s ($turn) is 1)[Acer guesses correctly and the dragon takes a hit.(set: $dragon_hits to $dragon_hits + 1)](else:)[Acer guesses incorrectly and takes a hit. (set: $acer_hits to $acer_hits + 1)] (set: $turn to $turn + 1)
+(if: $acer_hits &gt; 4)[Acer dies after taking too many hits. [[Try again?-&gt;Acer boss Introduction]]](else-if: $dragon_hits &gt; 4)[Acer is victorious! [[Continue-&gt;Acer boss win]]](else:)[[[Continue the fight-&gt;Acer boss]]]</tw-passagedata><tw-passagedata pid="171" name="Acer boss attack 4" tags="" position="3047.3333333333335,1318.6666666666665" size="100,100">(if: $attacks&#39;s ($turn) is 1)[Acer guesses correctly and the dragon takes a hit.(set: $dragon_hits to $dragon_hits + 1)](else:)[Acer guesses incorrectly and takes a hit. (set: $acer_hits to $acer_hits + 1)] (set: $turn to $turn + 1)
+(if: $acer_hits &gt; 4)[Acer dies after taking too many hits. [[Try again?-&gt;Acer boss Introduction]]](else-if: $dragon_hits &gt; 4)[Acer is victorious! [[Continue-&gt;Acer boss win]]](else:)[[[Continue the fight-&gt;Acer boss]]]</tw-passagedata><tw-passagedata pid="172" name="Acer boss win" tags="" position="2824,1500.3333333333333" size="100,100">The dragon falls to the ground defeated.
+(text-colour:yellow)[Acer: Piece of cake.]
+(text-colour:yellow)[Acer: How about a challenge next time?]
+&quot;Congratulations Acer for defeating the dragon.&quot;
+&quot;Here is your prize.&quot;
+[[Collect prize-&gt;Acer boss prize]]</tw-passagedata><tw-passagedata pid="173" name="Acer boss prize" tags="" position="2664,1492" size="100,100">Acer walks up to the shiny chest that appears behind the dragon.
+It&#39;s really sparkly.
+It must be special.
+[[Open the chest-&gt;Acer boss prize 2]]</tw-passagedata><tw-passagedata pid="174" name="Acer boss prize 2" tags="" position="2504,1483.6666666666667" size="100,100">Inside the chest is a (text-colour:yellow)[yellow] archer&#39;s dagger.
+(text-colour:yellow)[Acer: Finally!]
+(text-colour:yellow)[Acer: A weapon that I can use in close combat.]
+Acer straps the dagger to their belt.
+[[===&gt;-&gt;Acer boss outro]]</tw-passagedata><tw-passagedata pid="175" name="Acer boss outro" tags="" position="2345.6666666666665,1480.3333333333333" size="100,100">&quot;One down, two to go.&quot;
+[[===&gt;-&gt;Cole boss intro]]</tw-passagedata><tw-passagedata pid="176" name="Cole boss intro" tags="" position="2354.0000000000005,1627" size="100,100">Cole is in a room with a blazing pheonix.
+(text-colour:navy)[Cole: Nice, a challenge for a change.]
+In this room, there are two spots the pheonix will attack.
+If Cole can correctly guess the pheonix&#39;s pattern, he will dodge the attack.
+Cole will stay hidden.
+If he can survive, he can get a killing blow on the pheonix.
+Good luck! (set: $turn to 1) (set: $attacks to (a: 1,2,2,1,2,1,2,2,1,2)) (set: $turn to 1) (set: $dead to false)
+[[===&gt;-&gt;Cole boss]]</tw-passagedata><tw-passagedata pid="177" name="Cole boss" tags="" position="2357.333333333333,1770.3333333333333" size="100,100">The pheonix looks ready to strike.
+Cole sees something on the wall.
+He doesn&#39;t quite understand it.
+It seems important though.
+_ o o _ o _ o o _ o
+Cole is currently hidden.
+What will Cole do?
+[[Choose the left position-&gt;Cole boss attack 1]]
+[[Choose the right position-&gt;Cole boss attack 2]]</tw-passagedata><tw-passagedata pid="178" name="Cole boss attack 1" tags="" position="2187.333333333334,1775.3333333333333" size="100,100">(if: $attacks&#39;s ($turn) is 1)[Cole guesses correctly and avoids detection.(set: $turn to $turn + 1)](else:)[Cole gets burnt up by the pheonix. (set: $dead to true)[[Try again?-&gt;Cole boss intro]]]
+(if: $dead is false)[(if: $turn &gt; 10)[Cole is victorious! [[Continue-&gt;Cole boss win]]](else:)[[[Continue the fight-&gt;Cole boss]]]]</tw-passagedata><tw-passagedata pid="179" name="Cole boss attack 2" tags="" position="2519.0000000000005,1766.9999999999998" size="100,100">(if: $attacks&#39;s ($turn) is 2)[Cole guesses correctly and avoids detection.(set: $turn to $turn + 1)](else:)[Cole gets burnt up by the pheonix. (set: $dead to true)[[Try again?-&gt;Cole boss intro]]]
+(if: $dead is false)[(if: $turn &gt; 10)[Cole is victorious! [[Continue-&gt;Cole boss win]]](else:)[[[Continue the fight-&gt;Cole boss]]]]</tw-passagedata><tw-passagedata pid="180" name="Cole boss win" tags="" position="2375.666666666667,1923.6666666666667" size="100,100">Cole gets behind the unaware pheonix and stabs it directly in the heart.
+The pheonix staggers and eventually collapses.
+(text-colour:navy)[Cole: Take that, Mr Pheonix!]
+(text-colour:navy)[Cole: You are no match for my evasion skills.]
+Cole hears clapping from the Narrator.
+&quot;You have come a long way.&quot;
+&quot;You are a real rogue now.&quot;
+&quot;Take your prize.&quot;
+(text-colour:navy)[Cole: I shall.]
+[[Collect prize-&gt;Cole boss prize]]</tw-passagedata><tw-passagedata pid="181" name="Cole boss prize" tags="" position="2190.666666666667,1918.6666666666667" size="100,100">Cole walks up to the shiny chest that appears behind the pheonix.
+Cole doesn&#39;t understand the theatrics.
+He understands loot though.
+[[Open the chest-&gt;Cole boss prize 2]]</tw-passagedata><tw-passagedata pid="182" name="Cole boss prize 2" tags="" position="2059,1913.6666666666667" size="100,100">Inside the chest is some smoke powder.
+(text-colour:navy)[Cole: Interesting.]
+(text-colour:navy)[Cole: This will be useful for hiding.]
+Cole pockets the smoke powder.
+[[===&gt;-&gt;Cole boss outro]]</tw-passagedata><tw-passagedata pid="183" name="Cole boss outro" tags="" position="2057.3333333333335,1763.6666666666667" size="100,100">&quot;Two down, one to go.&quot;
+[[===&gt;-&gt;Remy fake boss intro]]</tw-passagedata><tw-passagedata pid="184" name="Remy fake boss intro" tags="" position="1929.0000000000002,1768.6666666666667" size="100,100">Remy is in a room with a scary looking chimera.
+(text-colour:purple)[Remy: Let&#39;s see how this foe handles my magic.]
+In order to win, Remy needs to pick the correct spells.
+Each of his magical spells has a different element.
+If he chooses the correct spell, he will overpower the chimera&#39;s attack for the round.
+Good luck!
+[[===&gt;-&gt;Remy fake boss]]</tw-passagedata><tw-passagedata pid="185" name="Remy fake boss" tags="" position="1927.3333333333335,1915.3333333333335" size="100,100">The Chimera looks like it is going to use it&#39;s (text-colour:red)[fire breath] attack this turn.
+What will Remy do?
+[[&quot;Love conquers!&quot;-&gt;Remy fake boss end]]
+[[&quot;The heart will go on!&quot;-&gt;Remy fake boss end]]
+[[&quot;Blood is thicker than water!&quot;-&gt;Remy fake boss end]]
+[[&quot;How dare you insult me!&quot;-&gt;Remy fake boss end]]
+[[&quot;I will survive!&quot;-&gt;Remy fake boss end]]
+[[&quot;My power will surpass you!&quot;-&gt;Remy fake boss end]]</tw-passagedata><tw-passagedata pid="186" name="Remy fake boss end" tags="" position="1927.3333333333335,2065.3333333333335" size="100,100">Remy raises his staff into the air and attacks the chimera.
+It completely explodes into a bunch of pieces.
+Remy looks disappointed.
+(text-colour:purple)[Remy: Is that it?]
+(text-colour:purple)[Remy: That was easy.]
+[[===&gt;-&gt;Remy boss intro]]</tw-passagedata><tw-passagedata pid="187" name="Remy boss intro" tags="" position="2064.0000000000005,2057" size="100,100">A cloaked figure appears in front of Remy.
+The figure unsheathes a long sword.
+The figure points their sword towards Remy.
+The figure slices the air in Remy&#39;s direction.
+(text-colour:purple)[Remy: Oh crap.]
+(text-colour:purple)[Remy: They look strong.] (set: $turn to 1)
+[[Fight!-&gt;Remy boss]]</tw-passagedata><tw-passagedata pid="188" name="Remy boss" tags="" position="2200.666666666667,2053.666666666667" size="100,100">The figure looks menacingly at Remy.
+What will Remy do? (set: $turn to $turn + 1)
+[[&quot;Love conquers!&quot;-&gt;Remy boss attack 1]]
+[[&quot;The heart will go on!&quot;-&gt;Remy boss attack 2]]
+[[&quot;Blood is thicker than water!&quot;-&gt;Remy boss attack 3]]
+[[&quot;How dare you insult me!&quot;-&gt;Remy boss attack 4]]
+[[&quot;I will survive!&quot;-&gt;Remy boss attack 5]]
+[[&quot;My power will surpass you!&quot;-&gt;Remy boss attack 6]]</tw-passagedata><tw-passagedata pid="189" name="Remy boss attack 1" tags="" position="1934.6666666666665,2275.3333333333335" size="100,100">(if: $turn &lt; 7)[The figure casually dodges Remy&#39;s magical spell.] (else:) [The figure dodges the spell and comes for Remy.]
+(if: $turn &lt; 7)[That&#39;s not good.] (else:) [The figure doesn&#39;t seem to care about Remy&#39;s attacks.]
+(if: $turn &lt; 7)[[[Continue the fight-&gt;Remy boss]]] (else:) [[[===&gt;-&gt;Remy boss end]]]</tw-passagedata><tw-passagedata pid="190" name="Remy boss attack 2" tags="" position="2063,2277.0000000000005" size="100,100">(if: $turn &lt; 7)[The figure effortlessly dodges Remy&#39;s magical spell.] (else:) [The figure dodges the spell and comes for Remy.]
+(if: $turn &lt; 7)[That&#39;s quite bad.] (else:) [The figure doesn&#39;t seem to care about Remy&#39;s attacks.]
+(if: $turn &lt; 7)[[[Continue the fight-&gt;Remy boss]]] (else:) [[[===&gt;-&gt;Remy boss end]]]</tw-passagedata><tw-passagedata pid="191" name="Remy boss attack 3" tags="" position="2197.333333333334,2275.3333333333335" size="100,100">(if: $turn &lt; 7)[The figure barely moves and dodges Remy&#39;s magical spell.] (else:) [The figure dodges the spell and comes for Remy.]
+(if: $turn &lt; 7)[Uh oh.] (else:) [The figure doesn&#39;t seem to care about Remy&#39;s attacks.]
+(if: $turn &lt; 7)[[[Continue the fight-&gt;Remy boss]]] (else:) [[[===&gt;-&gt;Remy boss end]]]</tw-passagedata><tw-passagedata pid="192" name="Remy boss attack 4" tags="" position="2319.000000000001,2277" size="100,100">(if: $turn &lt; 7)[The figure moves their head to dodge Remy&#39;s magical spell.] (else:) [The figure dodges the spell and comes for Remy.]
+(if: $turn &lt; 7)[Remy thinks that he might be in trouble.] (else:) [The figure doesn&#39;t seem to care about Remy&#39;s attacks.]
+(if: $turn &lt; 7)[[[Continue the fight-&gt;Remy boss]]] (else:) [[[===&gt;-&gt;Remy boss end]]]</tw-passagedata><tw-passagedata pid="193" name="Remy boss attack 5" tags="" position="2439.000000000001,2272" size="100,100">(if: $turn &lt; 7)[The figure disappears as Remy&#39;s magical spell passes through the figure.] (else:) [The figure dodges the spell and comes for Remy.]
+(if: $turn &lt; 7)[They can do that? Crap.] (else:) [The figure doesn&#39;t seem to care about Remy&#39;s attacks.]
+(if: $turn &lt; 7)[[[Continue the fight-&gt;Remy boss]]] (else:) [[[===&gt;-&gt;Remy boss end]]]</tw-passagedata><tw-passagedata pid="194" name="Remy boss attack 6" tags="" position="2574.000000000001,2282.0000000000005" size="100,100">(if: $turn &lt; 7)[The figure slices Remy&#39;s spell and the spell fizzles out.] (else:) [The figure dodges the spell and comes for Remy.]
+(if: $turn &lt; 7)[Welp.] (else:) [The figure doesn&#39;t seem to care about Remy&#39;s attacks.]
+(if: $turn &lt; 7)[[[Continue the fight-&gt;Remy boss]]] (else:) [[[===&gt;-&gt;Remy boss end]]]</tw-passagedata><tw-passagedata pid="195" name="Remy boss end" tags="" position="2216.333333333333,2547" size="100,100">The figure thrusts their sword directly into Remy.
+Remy collapses to the ground.
+As he is blacking out, he sees that the figure removes their hood.
+He gets a glimpse of what looks like a girl with (text-colour:magenta)[pink] hair.
+Remy blacks out.
+[[===&gt;-&gt;Next]]</tw-passagedata><tw-passagedata pid="196" name="Next" tags="" position="2222.9999999999995,2687" size="100,100">Tune in next time when I write the rest of the story :)</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,a=!1,i=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){a=!0,i=e}finally{try{!r&&s.return&&s.return()}finally{if(a)throw i}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
